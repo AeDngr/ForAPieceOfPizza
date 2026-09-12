@@ -1,0 +1,39 @@
+{
+  "achievementTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "category": "",
+    "tier": 0,
+    "condition": {
+      "enabled": true,
+      "conditionIds": []
+    },
+    "progress": {
+      "enabled": false,
+      "type": "",
+      "target": 0
+    },
+    "reward": {
+      "enabled": true,
+      "resources": {},
+      "points": {},
+      "upgrades": [],
+      "automates": [],
+      "effects": {}
+    },
+    "repeat": {
+      "enabled": false
+    },
+    "hidden": {
+      "enabled": false,
+      "showCondition": []
+    },
+    "permanent": true,
+    "visibility": {
+      "showAchievementTab": true,
+      "showLocked": true
+    },
+    "tags": []
+  }
+}

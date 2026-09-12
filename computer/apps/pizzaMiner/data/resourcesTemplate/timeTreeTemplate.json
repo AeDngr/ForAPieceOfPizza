@@ -1,0 +1,40 @@
+{
+  "timeTreeTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "version": 1,
+    "settings": {
+      "maxTier": 0,
+      "allowBranching": true,
+      "allowMultiplePaths": true,
+      "permanent": true
+    },
+    "currency": {
+      "primary": "timeCrystal"
+    },
+    "root": {
+      "nodeId": ""
+    },
+    "finalNode": {
+      "nodeId": ""
+    },
+    "branches": [],
+    "nodes": [],
+    "connections": [],
+    "globalEffects": {},
+    "resetRules": {
+      "enabled": true,
+      "keptData": []
+    },
+    "visibility": {
+      "showTree": true,
+      "showLockedNodes": true
+    },
+    "ui": {
+      "layout": "tree",
+      "scale": 1
+    },
+    "tags": []
+  }
+}

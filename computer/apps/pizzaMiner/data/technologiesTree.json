@@ -1,0 +1,420 @@
+{
+  "technologiesTree": {
+    "id": "technologiesTree",
+    "name": "Technology Tree",
+    "description": "Main technology progression tree for Pizza Miner.",
+    "version": 1,
+    "settings": {
+      "maxTier": 13,
+      "allowBranching": true,
+      "allowMultiplePaths": true
+    },
+    "root": {
+      "nodeId": "techNode001"
+    },
+    "finalNode": {
+      "nodeId": "techNode050"
+    },
+    "branches": [
+      {
+        "id": "quantum",
+        "name": "Quantum",
+        "nodes": [
+          "techNode001",
+          "techNode002",
+          "techNode003",
+          "techNode004",
+          "techNode005",
+          "techNode028"
+        ]
+      },
+      {
+        "id": "energy",
+        "name": "Energy",
+        "nodes": [
+          "techNode006"
+        ]
+      },
+      {
+        "id": "data",
+        "name": "Data",
+        "nodes": [
+          "techNode007",
+          "techNode008",
+          "techNode009",
+          "techNode010"
+        ]
+      },
+      {
+        "id": "processing",
+        "name": "Processing",
+        "nodes": [
+          "techNode011",
+          "techNode012"
+        ]
+      },
+      {
+        "id": "hardware",
+        "name": "Hardware",
+        "nodes": [
+          "techNode013",
+          "techNode014",
+          "techNode022",
+          "techNode023",
+          "techNode029"
+        ]
+      },
+      {
+        "id": "clock",
+        "name": "Clock",
+        "nodes": [
+          "techNode015",
+          "techNode016"
+        ]
+      },
+      {
+        "id": "memory",
+        "name": "Memory",
+        "nodes": [
+          "techNode017",
+          "techNode018"
+        ]
+      },
+      {
+        "id": "materials",
+        "name": "Materials",
+        "nodes": [
+          "techNode019",
+          "techNode020",
+          "techNode021"
+        ]
+      },
+      {
+        "id": "computing",
+        "name": "Computing",
+        "nodes": [
+          "techNode024",
+          "techNode025",
+          "techNode026",
+          "techNode027",
+          "techNode036",
+          "techNode046",
+          "techNode048"
+        ]
+      },
+      {
+        "id": "system",
+        "name": "System",
+        "nodes": [
+          "techNode030",
+          "techNode045"
+        ]
+      },
+      {
+        "id": "network",
+        "name": "Network",
+        "nodes": [
+          "techNode031",
+          "techNode032"
+        ]
+      },
+      {
+        "id": "server",
+        "name": "Server",
+        "nodes": [
+          "techNode033",
+          "techNode034",
+          "techNode035"
+        ]
+      },
+      {
+        "id": "ai",
+        "name": "AI",
+        "nodes": [
+          "techNode037",
+          "techNode038",
+          "techNode039",
+          "techNode040",
+          "techNode049"
+        ]
+      },
+      {
+        "id": "automation",
+        "name": "Automation",
+        "nodes": [
+          "techNode041",
+          "techNode042",
+          "techNode043",
+          "techNode044",
+          "techNode047"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "nodes": [
+          "techNode050"
+        ]
+      }
+    ],
+    "nodes": [
+      "techNode001",
+      "techNode002",
+      "techNode003",
+      "techNode004",
+      "techNode005",
+      "techNode006",
+      "techNode007",
+      "techNode008",
+      "techNode009",
+      "techNode010",
+      "techNode011",
+      "techNode012",
+      "techNode013",
+      "techNode014",
+      "techNode015",
+      "techNode016",
+      "techNode017",
+      "techNode018",
+      "techNode019",
+      "techNode020",
+      "techNode021",
+      "techNode022",
+      "techNode023",
+      "techNode024",
+      "techNode025",
+      "techNode026",
+      "techNode027",
+      "techNode028",
+      "techNode029",
+      "techNode030",
+      "techNode031",
+      "techNode032",
+      "techNode033",
+      "techNode034",
+      "techNode035",
+      "techNode036",
+      "techNode037",
+      "techNode038",
+      "techNode039",
+      "techNode040",
+      "techNode041",
+      "techNode042",
+      "techNode043",
+      "techNode044",
+      "techNode045",
+      "techNode046",
+      "techNode047",
+      "techNode048",
+      "techNode049",
+      "techNode050"
+    ],
+    "connections": [
+      {
+        "parent": "techNode001",
+        "child": "techNode002"
+      },
+      {
+        "parent": "techNode002",
+        "child": "techNode003"
+      },
+      {
+        "parent": "techNode003",
+        "child": "techNode004"
+      },
+      {
+        "parent": "techNode004",
+        "child": "techNode005"
+      },
+      {
+        "parent": "techNode005",
+        "child": "techNode006"
+      },
+      {
+        "parent": "techNode006",
+        "child": "techNode007"
+      },
+      {
+        "parent": "techNode007",
+        "child": "techNode008"
+      },
+      {
+        "parent": "techNode008",
+        "child": "techNode009"
+      },
+      {
+        "parent": "techNode009",
+        "child": "techNode010"
+      },
+      {
+        "parent": "techNode010",
+        "child": "techNode011"
+      },
+      {
+        "parent": "techNode011",
+        "child": "techNode012"
+      },
+      {
+        "parent": "techNode012",
+        "child": "techNode013"
+      },
+      {
+        "parent": "techNode013",
+        "child": "techNode014"
+      },
+      {
+        "parent": "techNode014",
+        "child": "techNode015"
+      },
+      {
+        "parent": "techNode015",
+        "child": "techNode016"
+      },
+      {
+        "parent": "techNode016",
+        "child": "techNode017"
+      },
+      {
+        "parent": "techNode017",
+        "child": "techNode018"
+      },
+      {
+        "parent": "techNode018",
+        "child": "techNode019"
+      },
+      {
+        "parent": "techNode019",
+        "child": "techNode020"
+      },
+      {
+        "parent": "techNode020",
+        "child": "techNode021"
+      },
+      {
+        "parent": "techNode021",
+        "child": "techNode022"
+      },
+      {
+        "parent": "techNode022",
+        "child": "techNode023"
+      },
+      {
+        "parent": "techNode023",
+        "child": "techNode024"
+      },
+      {
+        "parent": "techNode024",
+        "child": "techNode025"
+      },
+      {
+        "parent": "techNode025",
+        "child": "techNode026"
+      },
+      {
+        "parent": "techNode026",
+        "child": "techNode027"
+      },
+      {
+        "parent": "techNode027",
+        "child": "techNode028"
+      },
+      {
+        "parent": "techNode028",
+        "child": "techNode029"
+      },
+      {
+        "parent": "techNode029",
+        "child": "techNode030"
+      },
+      {
+        "parent": "techNode030",
+        "child": "techNode031"
+      },
+      {
+        "parent": "techNode031",
+        "child": "techNode032"
+      },
+      {
+        "parent": "techNode032",
+        "child": "techNode033"
+      },
+      {
+        "parent": "techNode033",
+        "child": "techNode034"
+      },
+      {
+        "parent": "techNode034",
+        "child": "techNode035"
+      },
+      {
+        "parent": "techNode035",
+        "child": "techNode036"
+      },
+      {
+        "parent": "techNode036",
+        "child": "techNode037"
+      },
+      {
+        "parent": "techNode037",
+        "child": "techNode038"
+      },
+      {
+        "parent": "techNode038",
+        "child": "techNode039"
+      },
+      {
+        "parent": "techNode039",
+        "child": "techNode040"
+      },
+      {
+        "parent": "techNode040",
+        "child": "techNode041"
+      },
+      {
+        "parent": "techNode041",
+        "child": "techNode042"
+      },
+      {
+        "parent": "techNode042",
+        "child": "techNode043"
+      },
+      {
+        "parent": "techNode043",
+        "child": "techNode044"
+      },
+      {
+        "parent": "techNode044",
+        "child": "techNode045"
+      },
+      {
+        "parent": "techNode045",
+        "child": "techNode046"
+      },
+      {
+        "parent": "techNode046",
+        "child": "techNode047"
+      },
+      {
+        "parent": "techNode047",
+        "child": "techNode048"
+      },
+      {
+        "parent": "techNode048",
+        "child": "techNode049"
+      },
+      {
+        "parent": "techNode049",
+        "child": "techNode050"
+      }
+    ],
+    "globalEffects": {},
+    "visibility": {
+      "showTree": true,
+      "showLockedNodes": true
+    },
+    "ui": {
+      "layout": "tree",
+      "scale": 1
+    }
+  }
+}

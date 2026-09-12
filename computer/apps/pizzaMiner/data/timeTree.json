@@ -1,0 +1,408 @@
+{
+  "timeTree": {
+    "id": "timeTree",
+    "name": "Time Tree",
+    "description": "",
+    "version": 1,
+    "settings": {
+      "maxTier": 10,
+      "allowBranching": true,
+      "allowMultiplePaths": true,
+      "permanent": true
+    },
+    "currency": {
+      "primary": "timeCrystal"
+    },
+    "root": {
+      "nodeId": "timeNode001"
+    },
+    "finalNode": {
+      "nodeId": "timeNode050"
+    },
+    "branches": [
+      {
+        "id": "foundation",
+        "name": "Foundation",
+        "nodes": [
+          "timeNode001",
+          "timeNode002",
+          "timeNode003",
+          "timeNode004",
+          "timeNode005"
+        ]
+      },
+      {
+        "id": "acceleration",
+        "name": "Acceleration",
+        "nodes": [
+          "timeNode006",
+          "timeNode007",
+          "timeNode008",
+          "timeNode009",
+          "timeNode010"
+        ]
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "nodes": [
+          "timeNode011",
+          "timeNode012",
+          "timeNode013",
+          "timeNode014",
+          "timeNode015"
+        ]
+      },
+      {
+        "id": "control",
+        "name": "Control",
+        "nodes": [
+          "timeNode016",
+          "timeNode017",
+          "timeNode018",
+          "timeNode019",
+          "timeNode020"
+        ]
+      },
+      {
+        "id": "preservation",
+        "name": "Preservation",
+        "nodes": [
+          "timeNode021",
+          "timeNode022",
+          "timeNode023",
+          "timeNode024",
+          "timeNode025"
+        ]
+      },
+      {
+        "id": "parallel",
+        "name": "Parallel",
+        "nodes": [
+          "timeNode026",
+          "timeNode027",
+          "timeNode028",
+          "timeNode029",
+          "timeNode030"
+        ]
+      },
+      {
+        "id": "computing",
+        "name": "Computing",
+        "nodes": [
+          "timeNode031",
+          "timeNode032",
+          "timeNode033",
+          "timeNode034",
+          "timeNode035"
+        ]
+      },
+      {
+        "id": "optimization",
+        "name": "Optimization",
+        "nodes": [
+          "timeNode036",
+          "timeNode037",
+          "timeNode038",
+          "timeNode039",
+          "timeNode040"
+        ]
+      },
+      {
+        "id": "endgame",
+        "name": "Endgame",
+        "nodes": [
+          "timeNode041",
+          "timeNode042",
+          "timeNode043",
+          "timeNode044",
+          "timeNode045"
+        ]
+      },
+      {
+        "id": "crystal",
+        "name": "Time Crystal",
+        "nodes": [
+          "timeNode046",
+          "timeNode047",
+          "timeNode048",
+          "timeNode049"
+        ]
+      },
+      {
+        "id": "final",
+        "name": "Final",
+        "nodes": [
+          "timeNode050"
+        ]
+      }
+    ],
+    "nodes": [
+      "timeNode001",
+      "timeNode002",
+      "timeNode003",
+      "timeNode004",
+      "timeNode005",
+      "timeNode006",
+      "timeNode007",
+      "timeNode008",
+      "timeNode009",
+      "timeNode010",
+      "timeNode011",
+      "timeNode012",
+      "timeNode013",
+      "timeNode014",
+      "timeNode015",
+      "timeNode016",
+      "timeNode017",
+      "timeNode018",
+      "timeNode019",
+      "timeNode020",
+      "timeNode021",
+      "timeNode022",
+      "timeNode023",
+      "timeNode024",
+      "timeNode025",
+      "timeNode026",
+      "timeNode027",
+      "timeNode028",
+      "timeNode029",
+      "timeNode030",
+      "timeNode031",
+      "timeNode032",
+      "timeNode033",
+      "timeNode034",
+      "timeNode035",
+      "timeNode036",
+      "timeNode037",
+      "timeNode038",
+      "timeNode039",
+      "timeNode040",
+      "timeNode041",
+      "timeNode042",
+      "timeNode043",
+      "timeNode044",
+      "timeNode045",
+      "timeNode046",
+      "timeNode047",
+      "timeNode048",
+      "timeNode049",
+      "timeNode050"
+    ],
+    "connections": [
+      {
+        "parent": "timeNode001",
+        "child": "timeNode002"
+      },
+      {
+        "parent": "timeNode002",
+        "child": "timeNode003"
+      },
+      {
+        "parent": "timeNode003",
+        "child": "timeNode004"
+      },
+      {
+        "parent": "timeNode004",
+        "child": "timeNode005"
+      },
+      {
+        "parent": "timeNode005",
+        "child": "timeNode006"
+      },
+      {
+        "parent": "timeNode006",
+        "child": "timeNode007"
+      },
+      {
+        "parent": "timeNode007",
+        "child": "timeNode008"
+      },
+      {
+        "parent": "timeNode008",
+        "child": "timeNode009"
+      },
+      {
+        "parent": "timeNode009",
+        "child": "timeNode010"
+      },
+      {
+        "parent": "timeNode010",
+        "child": "timeNode011"
+      },
+      {
+        "parent": "timeNode011",
+        "child": "timeNode012"
+      },
+      {
+        "parent": "timeNode012",
+        "child": "timeNode013"
+      },
+      {
+        "parent": "timeNode013",
+        "child": "timeNode014"
+      },
+      {
+        "parent": "timeNode014",
+        "child": "timeNode015"
+      },
+      {
+        "parent": "timeNode015",
+        "child": "timeNode016"
+      },
+      {
+        "parent": "timeNode016",
+        "child": "timeNode017"
+      },
+      {
+        "parent": "timeNode017",
+        "child": "timeNode018"
+      },
+      {
+        "parent": "timeNode018",
+        "child": "timeNode019"
+      },
+      {
+        "parent": "timeNode019",
+        "child": "timeNode020"
+      },
+      {
+        "parent": "timeNode020",
+        "child": "timeNode021"
+      },
+      {
+        "parent": "timeNode021",
+        "child": "timeNode022"
+      },
+      {
+        "parent": "timeNode022",
+        "child": "timeNode023"
+      },
+      {
+        "parent": "timeNode023",
+        "child": "timeNode024"
+      },
+      {
+        "parent": "timeNode024",
+        "child": "timeNode025"
+      },
+      {
+        "parent": "timeNode025",
+        "child": "timeNode026"
+      },
+      {
+        "parent": "timeNode026",
+        "child": "timeNode027"
+      },
+      {
+        "parent": "timeNode027",
+        "child": "timeNode028"
+      },
+      {
+        "parent": "timeNode028",
+        "child": "timeNode029"
+      },
+      {
+        "parent": "timeNode029",
+        "child": "timeNode030"
+      },
+      {
+        "parent": "timeNode030",
+        "child": "timeNode031"
+      },
+      {
+        "parent": "timeNode031",
+        "child": "timeNode032"
+      },
+      {
+        "parent": "timeNode032",
+        "child": "timeNode033"
+      },
+      {
+        "parent": "timeNode033",
+        "child": "timeNode034"
+      },
+      {
+        "parent": "timeNode034",
+        "child": "timeNode035"
+      },
+      {
+        "parent": "timeNode035",
+        "child": "timeNode036"
+      },
+      {
+        "parent": "timeNode036",
+        "child": "timeNode037"
+      },
+      {
+        "parent": "timeNode037",
+        "child": "timeNode038"
+      },
+      {
+        "parent": "timeNode038",
+        "child": "timeNode039"
+      },
+      {
+        "parent": "timeNode039",
+        "child": "timeNode040"
+      },
+      {
+        "parent": "timeNode040",
+        "child": "timeNode041"
+      },
+      {
+        "parent": "timeNode041",
+        "child": "timeNode042"
+      },
+      {
+        "parent": "timeNode042",
+        "child": "timeNode043"
+      },
+      {
+        "parent": "timeNode043",
+        "child": "timeNode044"
+      },
+      {
+        "parent": "timeNode044",
+        "child": "timeNode045"
+      },
+      {
+        "parent": "timeNode045",
+        "child": "timeNode046"
+      },
+      {
+        "parent": "timeNode046",
+        "child": "timeNode047"
+      },
+      {
+        "parent": "timeNode047",
+        "child": "timeNode048"
+      },
+      {
+        "parent": "timeNode048",
+        "child": "timeNode049"
+      },
+      {
+        "parent": "timeNode049",
+        "child": "timeNode050"
+      }
+    ],
+    "resetRules": {
+      "enabled": true,
+      "keptData": []
+    },
+    "visibility": {
+      "showTree": true,
+      "showLockedNodes": true
+    },
+    "ui": {
+      "layout": "tree",
+      "scale": 1
+    },
+    "tags": [
+      "time",
+      "timeCrystal",
+      "permanent"
+    ]
+  }
+}

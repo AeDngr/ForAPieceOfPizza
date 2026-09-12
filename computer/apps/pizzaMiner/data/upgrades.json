@@ -1,0 +1,7704 @@
+{
+  "upgrades": [
+    {
+      "id": "qubitEfficiency",
+      "name": "Qubit Efficiency",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "qubit",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "qubitEfficiency",
+      "conditionId": "",
+      "automateId": "qubitEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitAcceleration",
+      "name": "Qubit Acceleration",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "qubit",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "qubitAcceleration",
+      "conditionId": "",
+      "automateId": "qubitAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitOptimization",
+      "name": "Qubit Optimization",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "qubit",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "qubitOptimization",
+      "conditionId": "",
+      "automateId": "qubitOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitExpansion",
+      "name": "Qubit Expansion",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "qubit",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "qubitExpansion",
+      "conditionId": "",
+      "automateId": "qubitExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitRefinement",
+      "name": "Qubit Refinement",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "qubit",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "qubitRefinement",
+      "conditionId": "",
+      "automateId": "qubitRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitAmplification",
+      "name": "Qubit Amplification",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "qubit",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "qubitAmplification",
+      "conditionId": "",
+      "automateId": "qubitAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitSynchronization",
+      "name": "Qubit Synchronization",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "qubit",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "qubitSynchronization",
+      "conditionId": "",
+      "automateId": "qubitSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitCompression",
+      "name": "Qubit Compression",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "qubit",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "qubitCompression",
+      "conditionId": "",
+      "automateId": "qubitCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitScaling",
+      "name": "Qubit Scaling",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "qubit",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "qubitScaling",
+      "conditionId": "",
+      "automateId": "qubitScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "qubitMastery",
+      "name": "Qubit Mastery",
+      "resourceId": "qubit",
+      "resourceName": "Qubit",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "qubit",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "qubitMastery",
+      "conditionId": "",
+      "automateId": "qubitMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "qubit"
+      ]
+    },
+    {
+      "id": "quantumStateEfficiency",
+      "name": "Quantum State Efficiency",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "quantumStateEfficiency",
+      "conditionId": "",
+      "automateId": "quantumStateEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateAcceleration",
+      "name": "Quantum State Acceleration",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "quantumStateAcceleration",
+      "conditionId": "",
+      "automateId": "quantumStateAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateOptimization",
+      "name": "Quantum State Optimization",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "quantumStateOptimization",
+      "conditionId": "",
+      "automateId": "quantumStateOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateExpansion",
+      "name": "Quantum State Expansion",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "quantumStateExpansion",
+      "conditionId": "",
+      "automateId": "quantumStateExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateRefinement",
+      "name": "Quantum State Refinement",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "quantumStateRefinement",
+      "conditionId": "",
+      "automateId": "quantumStateRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateAmplification",
+      "name": "Quantum State Amplification",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "quantumStateAmplification",
+      "conditionId": "",
+      "automateId": "quantumStateAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateSynchronization",
+      "name": "Quantum State Synchronization",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "quantumStateSynchronization",
+      "conditionId": "",
+      "automateId": "quantumStateSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateCompression",
+      "name": "Quantum State Compression",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "quantumStateCompression",
+      "conditionId": "",
+      "automateId": "quantumStateCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateScaling",
+      "name": "Quantum State Scaling",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "quantumState",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "quantumStateScaling",
+      "conditionId": "",
+      "automateId": "quantumStateScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumStateMastery",
+      "name": "Quantum State Mastery",
+      "resourceId": "quantumState",
+      "resourceName": "Quantum State",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "quantumState",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "quantumStateMastery",
+      "conditionId": "",
+      "automateId": "quantumStateMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumState"
+      ]
+    },
+    {
+      "id": "quantumEnergyEfficiency",
+      "name": "Quantum Energy Efficiency",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "quantumEnergyEfficiency",
+      "conditionId": "",
+      "automateId": "quantumEnergyEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyAcceleration",
+      "name": "Quantum Energy Acceleration",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "quantumEnergyAcceleration",
+      "conditionId": "",
+      "automateId": "quantumEnergyAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyOptimization",
+      "name": "Quantum Energy Optimization",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "quantumEnergyOptimization",
+      "conditionId": "",
+      "automateId": "quantumEnergyOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyExpansion",
+      "name": "Quantum Energy Expansion",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "quantumEnergyExpansion",
+      "conditionId": "",
+      "automateId": "quantumEnergyExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyRefinement",
+      "name": "Quantum Energy Refinement",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "quantumEnergyRefinement",
+      "conditionId": "",
+      "automateId": "quantumEnergyRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyAmplification",
+      "name": "Quantum Energy Amplification",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "quantumEnergyAmplification",
+      "conditionId": "",
+      "automateId": "quantumEnergyAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergySynchronization",
+      "name": "Quantum Energy Synchronization",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "quantumEnergySynchronization",
+      "conditionId": "",
+      "automateId": "quantumEnergySynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyCompression",
+      "name": "Quantum Energy Compression",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "quantumEnergyCompression",
+      "conditionId": "",
+      "automateId": "quantumEnergyCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyScaling",
+      "name": "Quantum Energy Scaling",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "quantumEnergyScaling",
+      "conditionId": "",
+      "automateId": "quantumEnergyScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "quantumEnergyMastery",
+      "name": "Quantum Energy Mastery",
+      "resourceId": "quantumEnergy",
+      "resourceName": "Quantum Energy",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "quantumEnergy",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "quantumEnergyMastery",
+      "conditionId": "",
+      "automateId": "quantumEnergyMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumEnergy"
+      ]
+    },
+    {
+      "id": "bitEfficiency",
+      "name": "Bit Efficiency",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "bit",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "bitEfficiency",
+      "conditionId": "",
+      "automateId": "bitEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitAcceleration",
+      "name": "Bit Acceleration",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "bit",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "bitAcceleration",
+      "conditionId": "",
+      "automateId": "bitAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitOptimization",
+      "name": "Bit Optimization",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "bit",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "bitOptimization",
+      "conditionId": "",
+      "automateId": "bitOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitExpansion",
+      "name": "Bit Expansion",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "bit",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "bitExpansion",
+      "conditionId": "",
+      "automateId": "bitExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitRefinement",
+      "name": "Bit Refinement",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "bit",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "bitRefinement",
+      "conditionId": "",
+      "automateId": "bitRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitAmplification",
+      "name": "Bit Amplification",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "bit",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "bitAmplification",
+      "conditionId": "",
+      "automateId": "bitAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitSynchronization",
+      "name": "Bit Synchronization",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "bit",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "bitSynchronization",
+      "conditionId": "",
+      "automateId": "bitSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitCompression",
+      "name": "Bit Compression",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "bit",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "bitCompression",
+      "conditionId": "",
+      "automateId": "bitCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitScaling",
+      "name": "Bit Scaling",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "bit",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "bitScaling",
+      "conditionId": "",
+      "automateId": "bitScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "bitMastery",
+      "name": "Bit Mastery",
+      "resourceId": "bit",
+      "resourceName": "Bit",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "bit",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "bitMastery",
+      "conditionId": "",
+      "automateId": "bitMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "bit"
+      ]
+    },
+    {
+      "id": "byteEfficiency",
+      "name": "Byte Efficiency",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "byte",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "byteEfficiency",
+      "conditionId": "",
+      "automateId": "byteEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteAcceleration",
+      "name": "Byte Acceleration",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "byte",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "byteAcceleration",
+      "conditionId": "",
+      "automateId": "byteAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteOptimization",
+      "name": "Byte Optimization",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "byte",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "byteOptimization",
+      "conditionId": "",
+      "automateId": "byteOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteExpansion",
+      "name": "Byte Expansion",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "byte",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "byteExpansion",
+      "conditionId": "",
+      "automateId": "byteExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteRefinement",
+      "name": "Byte Refinement",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "byte",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "byteRefinement",
+      "conditionId": "",
+      "automateId": "byteRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteAmplification",
+      "name": "Byte Amplification",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "byte",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "byteAmplification",
+      "conditionId": "",
+      "automateId": "byteAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteSynchronization",
+      "name": "Byte Synchronization",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "byte",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "byteSynchronization",
+      "conditionId": "",
+      "automateId": "byteSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteCompression",
+      "name": "Byte Compression",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "byte",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "byteCompression",
+      "conditionId": "",
+      "automateId": "byteCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteScaling",
+      "name": "Byte Scaling",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "byte",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "byteScaling",
+      "conditionId": "",
+      "automateId": "byteScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "byteMastery",
+      "name": "Byte Mastery",
+      "resourceId": "byte",
+      "resourceName": "Byte",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "byte",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "byteMastery",
+      "conditionId": "",
+      "automateId": "byteMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "byte"
+      ]
+    },
+    {
+      "id": "dataEfficiency",
+      "name": "Data Efficiency",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "data",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "dataEfficiency",
+      "conditionId": "",
+      "automateId": "dataEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataAcceleration",
+      "name": "Data Acceleration",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "data",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "dataAcceleration",
+      "conditionId": "",
+      "automateId": "dataAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataOptimization",
+      "name": "Data Optimization",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "data",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "dataOptimization",
+      "conditionId": "",
+      "automateId": "dataOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataExpansion",
+      "name": "Data Expansion",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "data",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "dataExpansion",
+      "conditionId": "",
+      "automateId": "dataExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataRefinement",
+      "name": "Data Refinement",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "data",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "dataRefinement",
+      "conditionId": "",
+      "automateId": "dataRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataAmplification",
+      "name": "Data Amplification",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "data",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "dataAmplification",
+      "conditionId": "",
+      "automateId": "dataAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataSynchronization",
+      "name": "Data Synchronization",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "data",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "dataSynchronization",
+      "conditionId": "",
+      "automateId": "dataSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataCompression",
+      "name": "Data Compression",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "data",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "dataCompression",
+      "conditionId": "",
+      "automateId": "dataCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataScaling",
+      "name": "Data Scaling",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "data",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "dataScaling",
+      "conditionId": "",
+      "automateId": "dataScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "dataMastery",
+      "name": "Data Mastery",
+      "resourceId": "data",
+      "resourceName": "Data",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "data",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "dataMastery",
+      "conditionId": "",
+      "automateId": "dataMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "data"
+      ]
+    },
+    {
+      "id": "threadEfficiency",
+      "name": "Thread Efficiency",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "thread",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "threadEfficiency",
+      "conditionId": "",
+      "automateId": "threadEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadAcceleration",
+      "name": "Thread Acceleration",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "thread",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "threadAcceleration",
+      "conditionId": "",
+      "automateId": "threadAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadOptimization",
+      "name": "Thread Optimization",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "thread",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "threadOptimization",
+      "conditionId": "",
+      "automateId": "threadOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadExpansion",
+      "name": "Thread Expansion",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "thread",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "threadExpansion",
+      "conditionId": "",
+      "automateId": "threadExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadRefinement",
+      "name": "Thread Refinement",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "thread",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "threadRefinement",
+      "conditionId": "",
+      "automateId": "threadRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadAmplification",
+      "name": "Thread Amplification",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "thread",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "threadAmplification",
+      "conditionId": "",
+      "automateId": "threadAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadSynchronization",
+      "name": "Thread Synchronization",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "thread",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "threadSynchronization",
+      "conditionId": "",
+      "automateId": "threadSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadCompression",
+      "name": "Thread Compression",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "thread",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "threadCompression",
+      "conditionId": "",
+      "automateId": "threadCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadScaling",
+      "name": "Thread Scaling",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "thread",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "threadScaling",
+      "conditionId": "",
+      "automateId": "threadScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "threadMastery",
+      "name": "Thread Mastery",
+      "resourceId": "thread",
+      "resourceName": "Thread",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "thread",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "threadMastery",
+      "conditionId": "",
+      "automateId": "threadMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "thread"
+      ]
+    },
+    {
+      "id": "coreEfficiency",
+      "name": "Core Efficiency",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "core",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "coreEfficiency",
+      "conditionId": "",
+      "automateId": "coreEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreAcceleration",
+      "name": "Core Acceleration",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "core",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "coreAcceleration",
+      "conditionId": "",
+      "automateId": "coreAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreOptimization",
+      "name": "Core Optimization",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "core",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "coreOptimization",
+      "conditionId": "",
+      "automateId": "coreOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreExpansion",
+      "name": "Core Expansion",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "core",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "coreExpansion",
+      "conditionId": "",
+      "automateId": "coreExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreRefinement",
+      "name": "Core Refinement",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "core",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "coreRefinement",
+      "conditionId": "",
+      "automateId": "coreRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreAmplification",
+      "name": "Core Amplification",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "core",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "coreAmplification",
+      "conditionId": "",
+      "automateId": "coreAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreSynchronization",
+      "name": "Core Synchronization",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "core",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "coreSynchronization",
+      "conditionId": "",
+      "automateId": "coreSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreCompression",
+      "name": "Core Compression",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "core",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "coreCompression",
+      "conditionId": "",
+      "automateId": "coreCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreScaling",
+      "name": "Core Scaling",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "core",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "coreScaling",
+      "conditionId": "",
+      "automateId": "coreScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "coreMastery",
+      "name": "Core Mastery",
+      "resourceId": "core",
+      "resourceName": "Core",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "core",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "coreMastery",
+      "conditionId": "",
+      "automateId": "coreMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "core"
+      ]
+    },
+    {
+      "id": "energyEfficiency",
+      "name": "Energy Efficiency",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "energy",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "energyEfficiency",
+      "conditionId": "",
+      "automateId": "energyEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyAcceleration",
+      "name": "Energy Acceleration",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "energy",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "energyAcceleration",
+      "conditionId": "",
+      "automateId": "energyAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyOptimization",
+      "name": "Energy Optimization",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "energy",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "energyOptimization",
+      "conditionId": "",
+      "automateId": "energyOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyExpansion",
+      "name": "Energy Expansion",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "energy",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "energyExpansion",
+      "conditionId": "",
+      "automateId": "energyExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyRefinement",
+      "name": "Energy Refinement",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "energy",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "energyRefinement",
+      "conditionId": "",
+      "automateId": "energyRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyAmplification",
+      "name": "Energy Amplification",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "energy",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "energyAmplification",
+      "conditionId": "",
+      "automateId": "energyAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energySynchronization",
+      "name": "Energy Synchronization",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "energy",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "energySynchronization",
+      "conditionId": "",
+      "automateId": "energySynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyCompression",
+      "name": "Energy Compression",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "energy",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "energyCompression",
+      "conditionId": "",
+      "automateId": "energyCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyScaling",
+      "name": "Energy Scaling",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "energy",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "energyScaling",
+      "conditionId": "",
+      "automateId": "energyScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "energyMastery",
+      "name": "Energy Mastery",
+      "resourceId": "energy",
+      "resourceName": "Energy",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "energy",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "energyMastery",
+      "conditionId": "",
+      "automateId": "energyMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "energy"
+      ]
+    },
+    {
+      "id": "clockEfficiency",
+      "name": "Clock Efficiency",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "clock",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "clockEfficiency",
+      "conditionId": "",
+      "automateId": "clockEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockAcceleration",
+      "name": "Clock Acceleration",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "clock",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "clockAcceleration",
+      "conditionId": "",
+      "automateId": "clockAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockOptimization",
+      "name": "Clock Optimization",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "clock",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "clockOptimization",
+      "conditionId": "",
+      "automateId": "clockOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockExpansion",
+      "name": "Clock Expansion",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "clock",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "clockExpansion",
+      "conditionId": "",
+      "automateId": "clockExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockRefinement",
+      "name": "Clock Refinement",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "clock",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "clockRefinement",
+      "conditionId": "",
+      "automateId": "clockRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockAmplification",
+      "name": "Clock Amplification",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "clock",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "clockAmplification",
+      "conditionId": "",
+      "automateId": "clockAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockSynchronization",
+      "name": "Clock Synchronization",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "clock",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "clockSynchronization",
+      "conditionId": "",
+      "automateId": "clockSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockCompression",
+      "name": "Clock Compression",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "clock",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "clockCompression",
+      "conditionId": "",
+      "automateId": "clockCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockScaling",
+      "name": "Clock Scaling",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "clock",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "clockScaling",
+      "conditionId": "",
+      "automateId": "clockScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "clockMastery",
+      "name": "Clock Mastery",
+      "resourceId": "clock",
+      "resourceName": "Clock",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "clock",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "clockMastery",
+      "conditionId": "",
+      "automateId": "clockMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "clock"
+      ]
+    },
+    {
+      "id": "memoryEfficiency",
+      "name": "Memory Efficiency",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "memory",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "memoryEfficiency",
+      "conditionId": "",
+      "automateId": "memoryEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryAcceleration",
+      "name": "Memory Acceleration",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "memory",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "memoryAcceleration",
+      "conditionId": "",
+      "automateId": "memoryAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryOptimization",
+      "name": "Memory Optimization",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "memory",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "memoryOptimization",
+      "conditionId": "",
+      "automateId": "memoryOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryExpansion",
+      "name": "Memory Expansion",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "memory",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "memoryExpansion",
+      "conditionId": "",
+      "automateId": "memoryExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryRefinement",
+      "name": "Memory Refinement",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "memory",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "memoryRefinement",
+      "conditionId": "",
+      "automateId": "memoryRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryAmplification",
+      "name": "Memory Amplification",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "memory",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "memoryAmplification",
+      "conditionId": "",
+      "automateId": "memoryAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memorySynchronization",
+      "name": "Memory Synchronization",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "memory",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "memorySynchronization",
+      "conditionId": "",
+      "automateId": "memorySynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryCompression",
+      "name": "Memory Compression",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "memory",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "memoryCompression",
+      "conditionId": "",
+      "automateId": "memoryCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryScaling",
+      "name": "Memory Scaling",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "memory",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "memoryScaling",
+      "conditionId": "",
+      "automateId": "memoryScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "memoryMastery",
+      "name": "Memory Mastery",
+      "resourceId": "memory",
+      "resourceName": "Memory",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "memory",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "memoryMastery",
+      "conditionId": "",
+      "automateId": "memoryMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "memory"
+      ]
+    },
+    {
+      "id": "networkEfficiency",
+      "name": "Network Efficiency",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "network",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "networkEfficiency",
+      "conditionId": "",
+      "automateId": "networkEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkAcceleration",
+      "name": "Network Acceleration",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "network",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "networkAcceleration",
+      "conditionId": "",
+      "automateId": "networkAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkOptimization",
+      "name": "Network Optimization",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "network",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "networkOptimization",
+      "conditionId": "",
+      "automateId": "networkOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkExpansion",
+      "name": "Network Expansion",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "network",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "networkExpansion",
+      "conditionId": "",
+      "automateId": "networkExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkRefinement",
+      "name": "Network Refinement",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "network",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "networkRefinement",
+      "conditionId": "",
+      "automateId": "networkRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkAmplification",
+      "name": "Network Amplification",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "network",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "networkAmplification",
+      "conditionId": "",
+      "automateId": "networkAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkSynchronization",
+      "name": "Network Synchronization",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "network",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "networkSynchronization",
+      "conditionId": "",
+      "automateId": "networkSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkCompression",
+      "name": "Network Compression",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "network",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "networkCompression",
+      "conditionId": "",
+      "automateId": "networkCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkScaling",
+      "name": "Network Scaling",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "network",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "networkScaling",
+      "conditionId": "",
+      "automateId": "networkScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "networkMastery",
+      "name": "Network Mastery",
+      "resourceId": "network",
+      "resourceName": "Network",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "network",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "networkMastery",
+      "conditionId": "",
+      "automateId": "networkMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "network"
+      ]
+    },
+    {
+      "id": "siliconEfficiency",
+      "name": "Silicon Efficiency",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "silicon",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "siliconEfficiency",
+      "conditionId": "",
+      "automateId": "siliconEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconAcceleration",
+      "name": "Silicon Acceleration",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "silicon",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "siliconAcceleration",
+      "conditionId": "",
+      "automateId": "siliconAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconOptimization",
+      "name": "Silicon Optimization",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "silicon",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "siliconOptimization",
+      "conditionId": "",
+      "automateId": "siliconOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconExpansion",
+      "name": "Silicon Expansion",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "silicon",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "siliconExpansion",
+      "conditionId": "",
+      "automateId": "siliconExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconRefinement",
+      "name": "Silicon Refinement",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "silicon",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "siliconRefinement",
+      "conditionId": "",
+      "automateId": "siliconRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconAmplification",
+      "name": "Silicon Amplification",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "silicon",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "siliconAmplification",
+      "conditionId": "",
+      "automateId": "siliconAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconSynchronization",
+      "name": "Silicon Synchronization",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "silicon",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "siliconSynchronization",
+      "conditionId": "",
+      "automateId": "siliconSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconCompression",
+      "name": "Silicon Compression",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "silicon",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "siliconCompression",
+      "conditionId": "",
+      "automateId": "siliconCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconScaling",
+      "name": "Silicon Scaling",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "silicon",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "siliconScaling",
+      "conditionId": "",
+      "automateId": "siliconScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "siliconMastery",
+      "name": "Silicon Mastery",
+      "resourceId": "silicon",
+      "resourceName": "Silicon",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "silicon",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "siliconMastery",
+      "conditionId": "",
+      "automateId": "siliconMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "silicon"
+      ]
+    },
+    {
+      "id": "metalEfficiency",
+      "name": "Metal Efficiency",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "metal",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "metalEfficiency",
+      "conditionId": "",
+      "automateId": "metalEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalAcceleration",
+      "name": "Metal Acceleration",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "metal",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "metalAcceleration",
+      "conditionId": "",
+      "automateId": "metalAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalOptimization",
+      "name": "Metal Optimization",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "metal",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "metalOptimization",
+      "conditionId": "",
+      "automateId": "metalOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalExpansion",
+      "name": "Metal Expansion",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "metal",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "metalExpansion",
+      "conditionId": "",
+      "automateId": "metalExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalRefinement",
+      "name": "Metal Refinement",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "metal",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "metalRefinement",
+      "conditionId": "",
+      "automateId": "metalRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalAmplification",
+      "name": "Metal Amplification",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "metal",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "metalAmplification",
+      "conditionId": "",
+      "automateId": "metalAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalSynchronization",
+      "name": "Metal Synchronization",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "metal",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "metalSynchronization",
+      "conditionId": "",
+      "automateId": "metalSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalCompression",
+      "name": "Metal Compression",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "metal",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "metalCompression",
+      "conditionId": "",
+      "automateId": "metalCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalScaling",
+      "name": "Metal Scaling",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "metal",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "metalScaling",
+      "conditionId": "",
+      "automateId": "metalScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "metalMastery",
+      "name": "Metal Mastery",
+      "resourceId": "metal",
+      "resourceName": "Metal",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "metal",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "metalMastery",
+      "conditionId": "",
+      "automateId": "metalMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "metal"
+      ]
+    },
+    {
+      "id": "crystalEfficiency",
+      "name": "Crystal Efficiency",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "crystal",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "crystalEfficiency",
+      "conditionId": "",
+      "automateId": "crystalEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalAcceleration",
+      "name": "Crystal Acceleration",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "crystal",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "crystalAcceleration",
+      "conditionId": "",
+      "automateId": "crystalAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalOptimization",
+      "name": "Crystal Optimization",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "crystal",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "crystalOptimization",
+      "conditionId": "",
+      "automateId": "crystalOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalExpansion",
+      "name": "Crystal Expansion",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "crystal",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "crystalExpansion",
+      "conditionId": "",
+      "automateId": "crystalExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalRefinement",
+      "name": "Crystal Refinement",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "crystal",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "crystalRefinement",
+      "conditionId": "",
+      "automateId": "crystalRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalAmplification",
+      "name": "Crystal Amplification",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "crystal",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "crystalAmplification",
+      "conditionId": "",
+      "automateId": "crystalAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalSynchronization",
+      "name": "Crystal Synchronization",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "crystal",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "crystalSynchronization",
+      "conditionId": "",
+      "automateId": "crystalSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalCompression",
+      "name": "Crystal Compression",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "crystal",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "crystalCompression",
+      "conditionId": "",
+      "automateId": "crystalCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalScaling",
+      "name": "Crystal Scaling",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "crystal",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "crystalScaling",
+      "conditionId": "",
+      "automateId": "crystalScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "crystalMastery",
+      "name": "Crystal Mastery",
+      "resourceId": "crystal",
+      "resourceName": "Crystal",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "crystal",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "crystalMastery",
+      "conditionId": "",
+      "automateId": "crystalMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "crystal"
+      ]
+    },
+    {
+      "id": "chipEfficiency",
+      "name": "Chip Efficiency",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "chip",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "chipEfficiency",
+      "conditionId": "",
+      "automateId": "chipEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipAcceleration",
+      "name": "Chip Acceleration",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "chip",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "chipAcceleration",
+      "conditionId": "",
+      "automateId": "chipAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipOptimization",
+      "name": "Chip Optimization",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "chip",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "chipOptimization",
+      "conditionId": "",
+      "automateId": "chipOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipExpansion",
+      "name": "Chip Expansion",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "chip",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "chipExpansion",
+      "conditionId": "",
+      "automateId": "chipExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipRefinement",
+      "name": "Chip Refinement",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "chip",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "chipRefinement",
+      "conditionId": "",
+      "automateId": "chipRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipAmplification",
+      "name": "Chip Amplification",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "chip",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "chipAmplification",
+      "conditionId": "",
+      "automateId": "chipAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipSynchronization",
+      "name": "Chip Synchronization",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "chip",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "chipSynchronization",
+      "conditionId": "",
+      "automateId": "chipSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipCompression",
+      "name": "Chip Compression",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "chip",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "chipCompression",
+      "conditionId": "",
+      "automateId": "chipCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipScaling",
+      "name": "Chip Scaling",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "chip",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "chipScaling",
+      "conditionId": "",
+      "automateId": "chipScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "chipMastery",
+      "name": "Chip Mastery",
+      "resourceId": "chip",
+      "resourceName": "Chip",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "chip",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "chipMastery",
+      "conditionId": "",
+      "automateId": "chipMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "chip"
+      ]
+    },
+    {
+      "id": "processorEfficiency",
+      "name": "Processor Efficiency",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "processor",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "processorEfficiency",
+      "conditionId": "",
+      "automateId": "processorEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorAcceleration",
+      "name": "Processor Acceleration",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "processor",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "processorAcceleration",
+      "conditionId": "",
+      "automateId": "processorAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorOptimization",
+      "name": "Processor Optimization",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "processor",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "processorOptimization",
+      "conditionId": "",
+      "automateId": "processorOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorExpansion",
+      "name": "Processor Expansion",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "processor",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "processorExpansion",
+      "conditionId": "",
+      "automateId": "processorExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorRefinement",
+      "name": "Processor Refinement",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "processor",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "processorRefinement",
+      "conditionId": "",
+      "automateId": "processorRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorAmplification",
+      "name": "Processor Amplification",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "processor",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "processorAmplification",
+      "conditionId": "",
+      "automateId": "processorAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorSynchronization",
+      "name": "Processor Synchronization",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "processor",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "processorSynchronization",
+      "conditionId": "",
+      "automateId": "processorSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorCompression",
+      "name": "Processor Compression",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "processor",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "processorCompression",
+      "conditionId": "",
+      "automateId": "processorCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorScaling",
+      "name": "Processor Scaling",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "processor",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "processorScaling",
+      "conditionId": "",
+      "automateId": "processorScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "processorMastery",
+      "name": "Processor Mastery",
+      "resourceId": "processor",
+      "resourceName": "Processor",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "processor",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "processorMastery",
+      "conditionId": "",
+      "automateId": "processorMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "processor"
+      ]
+    },
+    {
+      "id": "cpuEfficiency",
+      "name": "CPU Efficiency",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "cpu",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "cpuEfficiency",
+      "conditionId": "",
+      "automateId": "cpuEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuAcceleration",
+      "name": "CPU Acceleration",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "cpu",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "cpuAcceleration",
+      "conditionId": "",
+      "automateId": "cpuAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuOptimization",
+      "name": "CPU Optimization",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "cpu",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "cpuOptimization",
+      "conditionId": "",
+      "automateId": "cpuOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuExpansion",
+      "name": "CPU Expansion",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "cpu",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "cpuExpansion",
+      "conditionId": "",
+      "automateId": "cpuExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuRefinement",
+      "name": "CPU Refinement",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "cpu",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "cpuRefinement",
+      "conditionId": "",
+      "automateId": "cpuRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuAmplification",
+      "name": "CPU Amplification",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "cpu",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "cpuAmplification",
+      "conditionId": "",
+      "automateId": "cpuAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuSynchronization",
+      "name": "CPU Synchronization",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "cpu",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "cpuSynchronization",
+      "conditionId": "",
+      "automateId": "cpuSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuCompression",
+      "name": "CPU Compression",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "cpu",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "cpuCompression",
+      "conditionId": "",
+      "automateId": "cpuCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuScaling",
+      "name": "CPU Scaling",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "cpu",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "cpuScaling",
+      "conditionId": "",
+      "automateId": "cpuScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "cpuMastery",
+      "name": "CPU Mastery",
+      "resourceId": "cpu",
+      "resourceName": "CPU",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "cpu",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "cpuMastery",
+      "conditionId": "",
+      "automateId": "cpuMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cpu"
+      ]
+    },
+    {
+      "id": "gpuEfficiency",
+      "name": "GPU Efficiency",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "gpu",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "gpuEfficiency",
+      "conditionId": "",
+      "automateId": "gpuEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuAcceleration",
+      "name": "GPU Acceleration",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "gpu",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "gpuAcceleration",
+      "conditionId": "",
+      "automateId": "gpuAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuOptimization",
+      "name": "GPU Optimization",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "gpu",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "gpuOptimization",
+      "conditionId": "",
+      "automateId": "gpuOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuExpansion",
+      "name": "GPU Expansion",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "gpu",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "gpuExpansion",
+      "conditionId": "",
+      "automateId": "gpuExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuRefinement",
+      "name": "GPU Refinement",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "gpu",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "gpuRefinement",
+      "conditionId": "",
+      "automateId": "gpuRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuAmplification",
+      "name": "GPU Amplification",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "gpu",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "gpuAmplification",
+      "conditionId": "",
+      "automateId": "gpuAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuSynchronization",
+      "name": "GPU Synchronization",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "gpu",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "gpuSynchronization",
+      "conditionId": "",
+      "automateId": "gpuSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuCompression",
+      "name": "GPU Compression",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "gpu",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "gpuCompression",
+      "conditionId": "",
+      "automateId": "gpuCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuScaling",
+      "name": "GPU Scaling",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "gpu",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "gpuScaling",
+      "conditionId": "",
+      "automateId": "gpuScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "gpuMastery",
+      "name": "GPU Mastery",
+      "resourceId": "gpu",
+      "resourceName": "GPU",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "gpu",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "gpuMastery",
+      "conditionId": "",
+      "automateId": "gpuMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gpu"
+      ]
+    },
+    {
+      "id": "spuEfficiency",
+      "name": "SPU Efficiency",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "spu",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "spuEfficiency",
+      "conditionId": "",
+      "automateId": "spuEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuAcceleration",
+      "name": "SPU Acceleration",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "spu",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "spuAcceleration",
+      "conditionId": "",
+      "automateId": "spuAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuOptimization",
+      "name": "SPU Optimization",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "spu",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "spuOptimization",
+      "conditionId": "",
+      "automateId": "spuOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuExpansion",
+      "name": "SPU Expansion",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "spu",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "spuExpansion",
+      "conditionId": "",
+      "automateId": "spuExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuRefinement",
+      "name": "SPU Refinement",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "spu",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "spuRefinement",
+      "conditionId": "",
+      "automateId": "spuRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuAmplification",
+      "name": "SPU Amplification",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "spu",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "spuAmplification",
+      "conditionId": "",
+      "automateId": "spuAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuSynchronization",
+      "name": "SPU Synchronization",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "spu",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "spuSynchronization",
+      "conditionId": "",
+      "automateId": "spuSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuCompression",
+      "name": "SPU Compression",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "spu",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "spuCompression",
+      "conditionId": "",
+      "automateId": "spuCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuScaling",
+      "name": "SPU Scaling",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "spu",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "spuScaling",
+      "conditionId": "",
+      "automateId": "spuScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "spuMastery",
+      "name": "SPU Mastery",
+      "resourceId": "spu",
+      "resourceName": "SPU",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "spu",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "spuMastery",
+      "conditionId": "",
+      "automateId": "spuMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "spu"
+      ]
+    },
+    {
+      "id": "npuEfficiency",
+      "name": "NPU Efficiency",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "npu",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "npuEfficiency",
+      "conditionId": "",
+      "automateId": "npuEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuAcceleration",
+      "name": "NPU Acceleration",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "npu",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "npuAcceleration",
+      "conditionId": "",
+      "automateId": "npuAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuOptimization",
+      "name": "NPU Optimization",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "npu",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "npuOptimization",
+      "conditionId": "",
+      "automateId": "npuOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuExpansion",
+      "name": "NPU Expansion",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "npu",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "npuExpansion",
+      "conditionId": "",
+      "automateId": "npuExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuRefinement",
+      "name": "NPU Refinement",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "npu",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "npuRefinement",
+      "conditionId": "",
+      "automateId": "npuRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuAmplification",
+      "name": "NPU Amplification",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "npu",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "npuAmplification",
+      "conditionId": "",
+      "automateId": "npuAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuSynchronization",
+      "name": "NPU Synchronization",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "npu",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "npuSynchronization",
+      "conditionId": "",
+      "automateId": "npuSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuCompression",
+      "name": "NPU Compression",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "npu",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "npuCompression",
+      "conditionId": "",
+      "automateId": "npuCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuScaling",
+      "name": "NPU Scaling",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "npu",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "npuScaling",
+      "conditionId": "",
+      "automateId": "npuScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "npuMastery",
+      "name": "NPU Mastery",
+      "resourceId": "npu",
+      "resourceName": "NPU",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "npu",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "npuMastery",
+      "conditionId": "",
+      "automateId": "npuMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "npu"
+      ]
+    },
+    {
+      "id": "quantumProcessorEfficiency",
+      "name": "Quantum Processor Efficiency",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "quantumProcessorEfficiency",
+      "conditionId": "",
+      "automateId": "quantumProcessorEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorAcceleration",
+      "name": "Quantum Processor Acceleration",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "quantumProcessorAcceleration",
+      "conditionId": "",
+      "automateId": "quantumProcessorAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorOptimization",
+      "name": "Quantum Processor Optimization",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "quantumProcessorOptimization",
+      "conditionId": "",
+      "automateId": "quantumProcessorOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorExpansion",
+      "name": "Quantum Processor Expansion",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "quantumProcessorExpansion",
+      "conditionId": "",
+      "automateId": "quantumProcessorExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorRefinement",
+      "name": "Quantum Processor Refinement",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "quantumProcessorRefinement",
+      "conditionId": "",
+      "automateId": "quantumProcessorRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorAmplification",
+      "name": "Quantum Processor Amplification",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "quantumProcessorAmplification",
+      "conditionId": "",
+      "automateId": "quantumProcessorAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorSynchronization",
+      "name": "Quantum Processor Synchronization",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "quantumProcessorSynchronization",
+      "conditionId": "",
+      "automateId": "quantumProcessorSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorCompression",
+      "name": "Quantum Processor Compression",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "quantumProcessorCompression",
+      "conditionId": "",
+      "automateId": "quantumProcessorCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorScaling",
+      "name": "Quantum Processor Scaling",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "quantumProcessorScaling",
+      "conditionId": "",
+      "automateId": "quantumProcessorScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "quantumProcessorMastery",
+      "name": "Quantum Processor Mastery",
+      "resourceId": "quantumProcessor",
+      "resourceName": "Quantum Processor",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "quantumProcessor",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "quantumProcessorMastery",
+      "conditionId": "",
+      "automateId": "quantumProcessorMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "quantumProcessor"
+      ]
+    },
+    {
+      "id": "mainboardEfficiency",
+      "name": "Mainboard Efficiency",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "mainboardEfficiency",
+      "conditionId": "",
+      "automateId": "mainboardEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardAcceleration",
+      "name": "Mainboard Acceleration",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "mainboardAcceleration",
+      "conditionId": "",
+      "automateId": "mainboardAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardOptimization",
+      "name": "Mainboard Optimization",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "mainboardOptimization",
+      "conditionId": "",
+      "automateId": "mainboardOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardExpansion",
+      "name": "Mainboard Expansion",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "mainboardExpansion",
+      "conditionId": "",
+      "automateId": "mainboardExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardRefinement",
+      "name": "Mainboard Refinement",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "mainboardRefinement",
+      "conditionId": "",
+      "automateId": "mainboardRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardAmplification",
+      "name": "Mainboard Amplification",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "mainboardAmplification",
+      "conditionId": "",
+      "automateId": "mainboardAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardSynchronization",
+      "name": "Mainboard Synchronization",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "mainboardSynchronization",
+      "conditionId": "",
+      "automateId": "mainboardSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardCompression",
+      "name": "Mainboard Compression",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "mainboardCompression",
+      "conditionId": "",
+      "automateId": "mainboardCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardScaling",
+      "name": "Mainboard Scaling",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "mainboard",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "mainboardScaling",
+      "conditionId": "",
+      "automateId": "mainboardScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "mainboardMastery",
+      "name": "Mainboard Mastery",
+      "resourceId": "mainboard",
+      "resourceName": "Mainboard",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "mainboard",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "mainboardMastery",
+      "conditionId": "",
+      "automateId": "mainboardMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "mainboard"
+      ]
+    },
+    {
+      "id": "aiModelEfficiency",
+      "name": "AI Model Efficiency",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "aiModelEfficiency",
+      "conditionId": "",
+      "automateId": "aiModelEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelAcceleration",
+      "name": "AI Model Acceleration",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "aiModelAcceleration",
+      "conditionId": "",
+      "automateId": "aiModelAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelOptimization",
+      "name": "AI Model Optimization",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "aiModelOptimization",
+      "conditionId": "",
+      "automateId": "aiModelOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelExpansion",
+      "name": "AI Model Expansion",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "aiModelExpansion",
+      "conditionId": "",
+      "automateId": "aiModelExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelRefinement",
+      "name": "AI Model Refinement",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "aiModelRefinement",
+      "conditionId": "",
+      "automateId": "aiModelRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelAmplification",
+      "name": "AI Model Amplification",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "aiModelAmplification",
+      "conditionId": "",
+      "automateId": "aiModelAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelSynchronization",
+      "name": "AI Model Synchronization",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "aiModelSynchronization",
+      "conditionId": "",
+      "automateId": "aiModelSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelCompression",
+      "name": "AI Model Compression",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "aiModelCompression",
+      "conditionId": "",
+      "automateId": "aiModelCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelScaling",
+      "name": "AI Model Scaling",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "aiModel",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "aiModelScaling",
+      "conditionId": "",
+      "automateId": "aiModelScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "aiModelMastery",
+      "name": "AI Model Mastery",
+      "resourceId": "aiModel",
+      "resourceName": "AI Model",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "aiModel",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "aiModelMastery",
+      "conditionId": "",
+      "automateId": "aiModelMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "aiModel"
+      ]
+    },
+    {
+      "id": "modelEfficiency",
+      "name": "Model Efficiency",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "model",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "modelEfficiency",
+      "conditionId": "",
+      "automateId": "modelEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelAcceleration",
+      "name": "Model Acceleration",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "model",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "modelAcceleration",
+      "conditionId": "",
+      "automateId": "modelAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelOptimization",
+      "name": "Model Optimization",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "model",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "modelOptimization",
+      "conditionId": "",
+      "automateId": "modelOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelExpansion",
+      "name": "Model Expansion",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "model",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "modelExpansion",
+      "conditionId": "",
+      "automateId": "modelExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelRefinement",
+      "name": "Model Refinement",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "model",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "modelRefinement",
+      "conditionId": "",
+      "automateId": "modelRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelAmplification",
+      "name": "Model Amplification",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "model",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "modelAmplification",
+      "conditionId": "",
+      "automateId": "modelAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelSynchronization",
+      "name": "Model Synchronization",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "model",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "modelSynchronization",
+      "conditionId": "",
+      "automateId": "modelSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelCompression",
+      "name": "Model Compression",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "model",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "modelCompression",
+      "conditionId": "",
+      "automateId": "modelCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelScaling",
+      "name": "Model Scaling",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "model",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "modelScaling",
+      "conditionId": "",
+      "automateId": "modelScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "modelMastery",
+      "name": "Model Mastery",
+      "resourceId": "model",
+      "resourceName": "Model",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "model",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "modelMastery",
+      "conditionId": "",
+      "automateId": "modelMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "model"
+      ]
+    },
+    {
+      "id": "parameterEfficiency",
+      "name": "Parameter Efficiency",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "parameter",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "parameterEfficiency",
+      "conditionId": "",
+      "automateId": "parameterEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterAcceleration",
+      "name": "Parameter Acceleration",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "parameter",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "parameterAcceleration",
+      "conditionId": "",
+      "automateId": "parameterAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterOptimization",
+      "name": "Parameter Optimization",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "parameter",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "parameterOptimization",
+      "conditionId": "",
+      "automateId": "parameterOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterExpansion",
+      "name": "Parameter Expansion",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "parameter",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "parameterExpansion",
+      "conditionId": "",
+      "automateId": "parameterExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterRefinement",
+      "name": "Parameter Refinement",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "parameter",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "parameterRefinement",
+      "conditionId": "",
+      "automateId": "parameterRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterAmplification",
+      "name": "Parameter Amplification",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "parameter",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "parameterAmplification",
+      "conditionId": "",
+      "automateId": "parameterAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterSynchronization",
+      "name": "Parameter Synchronization",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "parameter",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "parameterSynchronization",
+      "conditionId": "",
+      "automateId": "parameterSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterCompression",
+      "name": "Parameter Compression",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "parameter",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "parameterCompression",
+      "conditionId": "",
+      "automateId": "parameterCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterScaling",
+      "name": "Parameter Scaling",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "parameter",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "parameterScaling",
+      "conditionId": "",
+      "automateId": "parameterScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "parameterMastery",
+      "name": "Parameter Mastery",
+      "resourceId": "parameter",
+      "resourceName": "Parameter",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "parameter",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "parameterMastery",
+      "conditionId": "",
+      "automateId": "parameterMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "parameter"
+      ]
+    },
+    {
+      "id": "tokenEfficiency",
+      "name": "Token Efficiency",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "token",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "tokenEfficiency",
+      "conditionId": "",
+      "automateId": "tokenEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenAcceleration",
+      "name": "Token Acceleration",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "token",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "tokenAcceleration",
+      "conditionId": "",
+      "automateId": "tokenAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenOptimization",
+      "name": "Token Optimization",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "token",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "tokenOptimization",
+      "conditionId": "",
+      "automateId": "tokenOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenExpansion",
+      "name": "Token Expansion",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "token",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "tokenExpansion",
+      "conditionId": "",
+      "automateId": "tokenExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenRefinement",
+      "name": "Token Refinement",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "token",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "tokenRefinement",
+      "conditionId": "",
+      "automateId": "tokenRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenAmplification",
+      "name": "Token Amplification",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "token",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "tokenAmplification",
+      "conditionId": "",
+      "automateId": "tokenAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenSynchronization",
+      "name": "Token Synchronization",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "token",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "tokenSynchronization",
+      "conditionId": "",
+      "automateId": "tokenSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenCompression",
+      "name": "Token Compression",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "token",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "tokenCompression",
+      "conditionId": "",
+      "automateId": "tokenCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenScaling",
+      "name": "Token Scaling",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "token",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "tokenScaling",
+      "conditionId": "",
+      "automateId": "tokenScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "tokenMastery",
+      "name": "Token Mastery",
+      "resourceId": "token",
+      "resourceName": "Token",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "token",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "tokenMastery",
+      "conditionId": "",
+      "automateId": "tokenMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "token"
+      ]
+    },
+    {
+      "id": "playerDataEfficiency",
+      "name": "Player Data Efficiency",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "playerData",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "playerDataEfficiency",
+      "conditionId": "",
+      "automateId": "playerDataEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataAcceleration",
+      "name": "Player Data Acceleration",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "playerData",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "playerDataAcceleration",
+      "conditionId": "",
+      "automateId": "playerDataAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataOptimization",
+      "name": "Player Data Optimization",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "playerData",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "playerDataOptimization",
+      "conditionId": "",
+      "automateId": "playerDataOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataExpansion",
+      "name": "Player Data Expansion",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "playerData",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "playerDataExpansion",
+      "conditionId": "",
+      "automateId": "playerDataExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataRefinement",
+      "name": "Player Data Refinement",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "playerData",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "playerDataRefinement",
+      "conditionId": "",
+      "automateId": "playerDataRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataAmplification",
+      "name": "Player Data Amplification",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "playerData",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "playerDataAmplification",
+      "conditionId": "",
+      "automateId": "playerDataAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataSynchronization",
+      "name": "Player Data Synchronization",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "playerData",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "playerDataSynchronization",
+      "conditionId": "",
+      "automateId": "playerDataSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataCompression",
+      "name": "Player Data Compression",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "playerData",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "playerDataCompression",
+      "conditionId": "",
+      "automateId": "playerDataCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataScaling",
+      "name": "Player Data Scaling",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "playerData",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "playerDataScaling",
+      "conditionId": "",
+      "automateId": "playerDataScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "playerDataMastery",
+      "name": "Player Data Mastery",
+      "resourceId": "playerData",
+      "resourceName": "Player Data",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "playerData",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "playerDataMastery",
+      "conditionId": "",
+      "automateId": "playerDataMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "playerData"
+      ]
+    },
+    {
+      "id": "gameEngineEfficiency",
+      "name": "Game Engine Efficiency",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "gameEngineEfficiency",
+      "conditionId": "",
+      "automateId": "gameEngineEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineAcceleration",
+      "name": "Game Engine Acceleration",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "gameEngineAcceleration",
+      "conditionId": "",
+      "automateId": "gameEngineAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineOptimization",
+      "name": "Game Engine Optimization",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "gameEngineOptimization",
+      "conditionId": "",
+      "automateId": "gameEngineOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineExpansion",
+      "name": "Game Engine Expansion",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "gameEngineExpansion",
+      "conditionId": "",
+      "automateId": "gameEngineExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineRefinement",
+      "name": "Game Engine Refinement",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "gameEngineRefinement",
+      "conditionId": "",
+      "automateId": "gameEngineRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineAmplification",
+      "name": "Game Engine Amplification",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "gameEngineAmplification",
+      "conditionId": "",
+      "automateId": "gameEngineAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineSynchronization",
+      "name": "Game Engine Synchronization",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "gameEngineSynchronization",
+      "conditionId": "",
+      "automateId": "gameEngineSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineCompression",
+      "name": "Game Engine Compression",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "gameEngineCompression",
+      "conditionId": "",
+      "automateId": "gameEngineCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineScaling",
+      "name": "Game Engine Scaling",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "gameEngine",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "gameEngineScaling",
+      "conditionId": "",
+      "automateId": "gameEngineScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEngineMastery",
+      "name": "Game Engine Mastery",
+      "resourceId": "gameEngine",
+      "resourceName": "Game Engine",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "gameEngine",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "gameEngineMastery",
+      "conditionId": "",
+      "automateId": "gameEngineMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "gameEngine"
+      ]
+    },
+    {
+      "id": "gameEfficiency",
+      "name": "Game Efficiency",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "game",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "gameEfficiency",
+      "conditionId": "",
+      "automateId": "gameEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameAcceleration",
+      "name": "Game Acceleration",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "game",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "gameAcceleration",
+      "conditionId": "",
+      "automateId": "gameAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameOptimization",
+      "name": "Game Optimization",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "game",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "gameOptimization",
+      "conditionId": "",
+      "automateId": "gameOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameExpansion",
+      "name": "Game Expansion",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "game",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "gameExpansion",
+      "conditionId": "",
+      "automateId": "gameExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameRefinement",
+      "name": "Game Refinement",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "game",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "gameRefinement",
+      "conditionId": "",
+      "automateId": "gameRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameAmplification",
+      "name": "Game Amplification",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "game",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "gameAmplification",
+      "conditionId": "",
+      "automateId": "gameAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameSynchronization",
+      "name": "Game Synchronization",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "game",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "gameSynchronization",
+      "conditionId": "",
+      "automateId": "gameSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameCompression",
+      "name": "Game Compression",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "game",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "gameCompression",
+      "conditionId": "",
+      "automateId": "gameCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameScaling",
+      "name": "Game Scaling",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "game",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "gameScaling",
+      "conditionId": "",
+      "automateId": "gameScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "gameMastery",
+      "name": "Game Mastery",
+      "resourceId": "game",
+      "resourceName": "Game",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "game",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "gameMastery",
+      "conditionId": "",
+      "automateId": "gameMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "game"
+      ]
+    },
+    {
+      "id": "reputationEfficiency",
+      "name": "Reputation Efficiency",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "reputation",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "reputationEfficiency",
+      "conditionId": "",
+      "automateId": "reputationEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationAcceleration",
+      "name": "Reputation Acceleration",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "reputation",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "reputationAcceleration",
+      "conditionId": "",
+      "automateId": "reputationAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationOptimization",
+      "name": "Reputation Optimization",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "reputation",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "reputationOptimization",
+      "conditionId": "",
+      "automateId": "reputationOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationExpansion",
+      "name": "Reputation Expansion",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "reputation",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "reputationExpansion",
+      "conditionId": "",
+      "automateId": "reputationExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationRefinement",
+      "name": "Reputation Refinement",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "reputation",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "reputationRefinement",
+      "conditionId": "",
+      "automateId": "reputationRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationAmplification",
+      "name": "Reputation Amplification",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "reputation",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "reputationAmplification",
+      "conditionId": "",
+      "automateId": "reputationAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationSynchronization",
+      "name": "Reputation Synchronization",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "reputation",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "reputationSynchronization",
+      "conditionId": "",
+      "automateId": "reputationSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationCompression",
+      "name": "Reputation Compression",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "reputation",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "reputationCompression",
+      "conditionId": "",
+      "automateId": "reputationCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationScaling",
+      "name": "Reputation Scaling",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "reputation",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "reputationScaling",
+      "conditionId": "",
+      "automateId": "reputationScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "reputationMastery",
+      "name": "Reputation Mastery",
+      "resourceId": "reputation",
+      "resourceName": "Reputation",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "reputation",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "reputationMastery",
+      "conditionId": "",
+      "automateId": "reputationMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "reputation"
+      ]
+    },
+    {
+      "id": "cryptoCreditEfficiency",
+      "name": "Crypto Credit Efficiency",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "cryptoCreditEfficiency",
+      "conditionId": "",
+      "automateId": "cryptoCreditEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditAcceleration",
+      "name": "Crypto Credit Acceleration",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "cryptoCreditAcceleration",
+      "conditionId": "",
+      "automateId": "cryptoCreditAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditOptimization",
+      "name": "Crypto Credit Optimization",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "cryptoCreditOptimization",
+      "conditionId": "",
+      "automateId": "cryptoCreditOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditExpansion",
+      "name": "Crypto Credit Expansion",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "cryptoCreditExpansion",
+      "conditionId": "",
+      "automateId": "cryptoCreditExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditRefinement",
+      "name": "Crypto Credit Refinement",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "cryptoCreditRefinement",
+      "conditionId": "",
+      "automateId": "cryptoCreditRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditAmplification",
+      "name": "Crypto Credit Amplification",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "cryptoCreditAmplification",
+      "conditionId": "",
+      "automateId": "cryptoCreditAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditSynchronization",
+      "name": "Crypto Credit Synchronization",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "cryptoCreditSynchronization",
+      "conditionId": "",
+      "automateId": "cryptoCreditSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditCompression",
+      "name": "Crypto Credit Compression",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "cryptoCreditCompression",
+      "conditionId": "",
+      "automateId": "cryptoCreditCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditScaling",
+      "name": "Crypto Credit Scaling",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "cryptoCreditScaling",
+      "conditionId": "",
+      "automateId": "cryptoCreditScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "cryptoCreditMastery",
+      "name": "Crypto Credit Mastery",
+      "resourceId": "cryptoCredit",
+      "resourceName": "Crypto Credit",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "cryptoCredit",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "cryptoCreditMastery",
+      "conditionId": "",
+      "automateId": "cryptoCreditMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "cryptoCredit"
+      ]
+    },
+    {
+      "id": "moneyEfficiency",
+      "name": "Money Efficiency",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "money",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "moneyEfficiency",
+      "conditionId": "",
+      "automateId": "moneyEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyAcceleration",
+      "name": "Money Acceleration",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "money",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "moneyAcceleration",
+      "conditionId": "",
+      "automateId": "moneyAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyOptimization",
+      "name": "Money Optimization",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "money",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "moneyOptimization",
+      "conditionId": "",
+      "automateId": "moneyOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyExpansion",
+      "name": "Money Expansion",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "money",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "moneyExpansion",
+      "conditionId": "",
+      "automateId": "moneyExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyRefinement",
+      "name": "Money Refinement",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "money",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "moneyRefinement",
+      "conditionId": "",
+      "automateId": "moneyRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyAmplification",
+      "name": "Money Amplification",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "money",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "moneyAmplification",
+      "conditionId": "",
+      "automateId": "moneyAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneySynchronization",
+      "name": "Money Synchronization",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "money",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "moneySynchronization",
+      "conditionId": "",
+      "automateId": "moneySynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyCompression",
+      "name": "Money Compression",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "money",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "moneyCompression",
+      "conditionId": "",
+      "automateId": "moneyCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyScaling",
+      "name": "Money Scaling",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "money",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "moneyScaling",
+      "conditionId": "",
+      "automateId": "moneyScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "moneyMastery",
+      "name": "Money Mastery",
+      "resourceId": "money",
+      "resourceName": "Money",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "money",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "moneyMastery",
+      "conditionId": "",
+      "automateId": "moneyMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "money"
+      ]
+    },
+    {
+      "id": "btcEfficiency",
+      "name": "BTC Efficiency",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "btc",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "btcEfficiency",
+      "conditionId": "",
+      "automateId": "btcEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcAcceleration",
+      "name": "BTC Acceleration",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "btc",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "btcAcceleration",
+      "conditionId": "",
+      "automateId": "btcAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcOptimization",
+      "name": "BTC Optimization",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "btc",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "btcOptimization",
+      "conditionId": "",
+      "automateId": "btcOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcExpansion",
+      "name": "BTC Expansion",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "btc",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "btcExpansion",
+      "conditionId": "",
+      "automateId": "btcExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcRefinement",
+      "name": "BTC Refinement",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "btc",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "btcRefinement",
+      "conditionId": "",
+      "automateId": "btcRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcAmplification",
+      "name": "BTC Amplification",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "btc",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "btcAmplification",
+      "conditionId": "",
+      "automateId": "btcAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcSynchronization",
+      "name": "BTC Synchronization",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "btc",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "btcSynchronization",
+      "conditionId": "",
+      "automateId": "btcSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcCompression",
+      "name": "BTC Compression",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "btc",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "btcCompression",
+      "conditionId": "",
+      "automateId": "btcCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcScaling",
+      "name": "BTC Scaling",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "btc",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "btcScaling",
+      "conditionId": "",
+      "automateId": "btcScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "btcMastery",
+      "name": "BTC Mastery",
+      "resourceId": "btc",
+      "resourceName": "BTC",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "btc",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "btcMastery",
+      "conditionId": "",
+      "automateId": "btcMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "btc"
+      ]
+    },
+    {
+      "id": "timeCrystalEfficiency",
+      "name": "Time Crystal Efficiency",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.1,
+        "increaseRate": 10.0
+      },
+      "priceId": "timeCrystalEfficiency",
+      "conditionId": "",
+      "automateId": "timeCrystalEfficiency",
+      "tier": 1,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalAcceleration",
+      "name": "Time Crystal Acceleration",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "speedMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.2,
+        "increaseRate": 20.0
+      },
+      "priceId": "timeCrystalAcceleration",
+      "conditionId": "",
+      "automateId": "timeCrystalAcceleration",
+      "tier": 2,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalOptimization",
+      "name": "Time Crystal Optimization",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.3,
+        "increaseRate": 30.0
+      },
+      "priceId": "timeCrystalOptimization",
+      "conditionId": "",
+      "automateId": "timeCrystalOptimization",
+      "tier": 3,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalExpansion",
+      "name": "Time Crystal Expansion",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "capacityMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.4,
+        "increaseRate": 40.0
+      },
+      "priceId": "timeCrystalExpansion",
+      "conditionId": "",
+      "automateId": "timeCrystalExpansion",
+      "tier": 4,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalRefinement",
+      "name": "Time Crystal Refinement",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.5,
+        "increaseRate": 50.0
+      },
+      "priceId": "timeCrystalRefinement",
+      "conditionId": "",
+      "automateId": "timeCrystalRefinement",
+      "tier": 5,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalAmplification",
+      "name": "Time Crystal Amplification",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "gainMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.6,
+        "increaseRate": 60.0
+      },
+      "priceId": "timeCrystalAmplification",
+      "conditionId": "",
+      "automateId": "timeCrystalAmplification",
+      "tier": 6,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalSynchronization",
+      "name": "Time Crystal Synchronization",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "automationMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.7,
+        "increaseRate": 70.0
+      },
+      "priceId": "timeCrystalSynchronization",
+      "conditionId": "",
+      "automateId": "timeCrystalSynchronization",
+      "tier": 7,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalCompression",
+      "name": "Time Crystal Compression",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "costMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.8,
+        "increaseRate": 80.0
+      },
+      "priceId": "timeCrystalCompression",
+      "conditionId": "",
+      "automateId": "timeCrystalCompression",
+      "tier": 8,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalScaling",
+      "name": "Time Crystal Scaling",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "growthMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 1.9,
+        "increaseRate": 90.0
+      },
+      "priceId": "timeCrystalScaling",
+      "conditionId": "",
+      "automateId": "timeCrystalScaling",
+      "tier": 9,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    },
+    {
+      "id": "timeCrystalMastery",
+      "name": "Time Crystal Mastery",
+      "resourceId": "timeCrystal",
+      "resourceName": "Time Crystal",
+      "description": "",
+      "effect": {
+        "type": "overallMultiplier",
+        "target": "timeCrystal",
+        "multiplier": 2.0,
+        "increaseRate": 100.0
+      },
+      "priceId": "timeCrystalMastery",
+      "conditionId": "",
+      "automateId": "timeCrystalMastery",
+      "tier": 10,
+      "permanent": false,
+      "tags": [
+        "upgrade",
+        "timeCrystal"
+      ]
+    }
+  ]
+}

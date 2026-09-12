@@ -1,0 +1,23 @@
+{
+  "number": {
+    "format": {
+      "notation": "scientific",
+      "decimalPlaces": 2,
+      "showExponent": true,
+      "exponentSeparator": "e",
+      "positiveExponentSign": true
+    },
+    "representation": {
+      "mantissa": 1.0,
+      "exponent": 0
+    },
+    "operations": {
+      "add": true,
+      "subtract": true,
+      "multiply": true,
+      "divide": true,
+      "power": true
+    },
+    "normalize": true
+  }
+}

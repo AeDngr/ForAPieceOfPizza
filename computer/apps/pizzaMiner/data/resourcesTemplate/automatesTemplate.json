@@ -1,0 +1,14 @@
+{
+  "automatesTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "tier": 0,
+    "price": {},
+    "condition": {},
+    "effect": {},
+    "scaling": {},
+    "enabled": false,
+    "tags": []
+  }
+}

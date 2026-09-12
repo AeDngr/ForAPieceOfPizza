@@ -1,0 +1,24 @@
+{
+  "timeTreeNodeTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "tier": 0,
+    "branch": "",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "connection": {
+      "parent": "",
+      "children": []
+    },
+    "price": {},
+    "condition": {},
+    "effect": {},
+    "scaling": {},
+    "unlockContent": {},
+    "permanent": true,
+    "tags": []
+  }
+}

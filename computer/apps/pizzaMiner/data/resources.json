@@ -1,0 +1,366 @@
+{
+  "resources": [
+    {
+      "id": "qubit",
+      "name": "Qubit",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "quantum"
+      ]
+    },
+    {
+      "id": "quantumState",
+      "name": "Quantum State",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "quantum"
+      ]
+    },
+    {
+      "id": "quantumEnergy",
+      "name": "Quantum Energy",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "quantum",
+        "energy"
+      ]
+    },
+    {
+      "id": "bit",
+      "name": "Bit",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "byte",
+      "name": "Byte",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "thread",
+      "name": "Thread",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "computing"
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "computing"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "energy"
+      ]
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "computing"
+      ]
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "computing",
+        "data"
+      ]
+    },
+    {
+      "id": "network",
+      "name": "Network",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "network"
+      ]
+    },
+    {
+      "id": "silicon",
+      "name": "Silicon",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "material"
+      ]
+    },
+    {
+      "id": "metal",
+      "name": "Metal",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "material"
+      ]
+    },
+    {
+      "id": "crystal",
+      "name": "Crystal",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "material"
+      ]
+    },
+    {
+      "id": "chip",
+      "name": "Chip",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "processor",
+      "name": "Processor",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware",
+        "computing"
+      ]
+    },
+    {
+      "id": "cpu",
+      "name": "CPU",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware",
+        "computing"
+      ]
+    },
+    {
+      "id": "gpu",
+      "name": "GPU",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware",
+        "computing"
+      ]
+    },
+    {
+      "id": "spu",
+      "name": "SPU",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware",
+        "computing"
+      ]
+    },
+    {
+      "id": "npu",
+      "name": "NPU",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware",
+        "computing",
+        "ai"
+      ]
+    },
+    {
+      "id": "quantumProcessor",
+      "name": "Quantum Processor",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware",
+        "quantum"
+      ]
+    },
+    {
+      "id": "mainboard",
+      "name": "Mainboard",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "aiModel",
+      "name": "AI Model",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "model",
+      "name": "Model",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "parameter",
+      "name": "Parameter",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "token",
+      "name": "Token",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "playerData",
+      "name": "Player Data",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "data",
+        "game"
+      ]
+    },
+    {
+      "id": "gameEngine",
+      "name": "Game Engine",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "game",
+      "name": "Game",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "reputation",
+      "name": "Reputation",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "cryptoCredit",
+      "name": "Crypto Credit",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "economy",
+        "crypto"
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "btc",
+      "name": "BTC",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "id": "timeCrystal",
+      "name": "Time Crystal",
+      "description": "",
+      "tier": 0,
+      "unit": "",
+      "tags": [
+        "special",
+        "endgame"
+      ]
+    }
+  ]
+}

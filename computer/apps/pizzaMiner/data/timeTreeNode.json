@@ -1,0 +1,1572 @@
+{
+  "timeTreeNodes": [
+    {
+      "id": "timeNode001",
+      "name": "Temporal Awareness",
+      "description": "",
+      "tier": 1,
+      "branch": "foundation",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "connection": {
+        "parent": "",
+        "children": [
+          "timeNode002"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {
+        "timeSystem": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "foundation"
+      ]
+    },
+    {
+      "id": "timeNode002",
+      "name": "Time Flow",
+      "description": "",
+      "tier": 1,
+      "branch": "foundation",
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode001",
+        "children": [
+          "timeNode003"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "foundation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "foundation"
+      ]
+    },
+    {
+      "id": "timeNode003",
+      "name": "Temporal Acceleration",
+      "description": "",
+      "tier": 1,
+      "branch": "acceleration",
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode002",
+        "children": [
+          "timeNode004"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "timeNode004",
+      "name": "Time Efficiency",
+      "description": "",
+      "tier": 1,
+      "branch": "acceleration",
+      "position": {
+        "x": 3,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode003",
+        "children": [
+          "timeNode005"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "acceleration",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "timeNode005",
+      "name": "Temporal Storage",
+      "description": "",
+      "tier": 1,
+      "branch": "storage",
+      "position": {
+        "x": 4,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode004",
+        "children": [
+          "timeNode006"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "storage",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "storage"
+      ]
+    },
+    {
+      "id": "timeNode006",
+      "name": "Offline Continuity",
+      "description": "",
+      "tier": 2,
+      "branch": "offline",
+      "position": {
+        "x": 5,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode005",
+        "children": [
+          "timeNode007"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {
+        "offlineProgress": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "offline"
+      ]
+    },
+    {
+      "id": "timeNode007",
+      "name": "Extended Offline Time",
+      "description": "",
+      "tier": 2,
+      "branch": "offline",
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode006",
+        "children": [
+          "timeNode008"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "offline",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "offline"
+      ]
+    },
+    {
+      "id": "timeNode008",
+      "name": "Offline Production",
+      "description": "",
+      "tier": 2,
+      "branch": "offline",
+      "position": {
+        "x": 7,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode007",
+        "children": [
+          "timeNode009"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "offline",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "offline"
+      ]
+    },
+    {
+      "id": "timeNode009",
+      "name": "Offline Efficiency",
+      "description": "",
+      "tier": 2,
+      "branch": "offline",
+      "position": {
+        "x": 8,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode008",
+        "children": [
+          "timeNode010"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "offline",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "offline"
+      ]
+    },
+    {
+      "id": "timeNode010",
+      "name": "Temporal Reserve",
+      "description": "",
+      "tier": 2,
+      "branch": "storage",
+      "position": {
+        "x": 9,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode009",
+        "children": [
+          "timeNode011"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "storage",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "storage"
+      ]
+    },
+    {
+      "id": "timeNode011",
+      "name": "Fast Processing",
+      "description": "",
+      "tier": 3,
+      "branch": "acceleration",
+      "position": {
+        "x": 10,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode010",
+        "children": [
+          "timeNode012"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "timeNode012",
+      "name": "Accelerated Production",
+      "description": "",
+      "tier": 3,
+      "branch": "acceleration",
+      "position": {
+        "x": 11,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode011",
+        "children": [
+          "timeNode013"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "acceleration",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "timeNode013",
+      "name": "Temporal Compression",
+      "description": "",
+      "tier": 3,
+      "branch": "acceleration",
+      "position": {
+        "x": 12,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode012",
+        "children": [
+          "timeNode014"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "acceleration",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "timeNode014",
+      "name": "Time Multiplication",
+      "description": "",
+      "tier": 3,
+      "branch": "acceleration",
+      "position": {
+        "x": 13,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode013",
+        "children": [
+          "timeNode015"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "acceleration",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "timeNode015",
+      "name": "Chronological Control",
+      "description": "",
+      "tier": 3,
+      "branch": "control",
+      "position": {
+        "x": 14,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode014",
+        "children": [
+          "timeNode016"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "control",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "control"
+      ]
+    },
+    {
+      "id": "timeNode016",
+      "name": "Reset Timing",
+      "description": "",
+      "tier": 4,
+      "branch": "control",
+      "position": {
+        "x": 15,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode015",
+        "children": [
+          "timeNode017"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {
+        "resetTiming": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "control"
+      ]
+    },
+    {
+      "id": "timeNode017",
+      "name": "Reset Preservation",
+      "description": "",
+      "tier": 4,
+      "branch": "preservation",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode016",
+        "children": [
+          "timeNode018"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "preservation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "preservation"
+      ]
+    },
+    {
+      "id": "timeNode018",
+      "name": "Resource Preservation",
+      "description": "",
+      "tier": 4,
+      "branch": "preservation",
+      "position": {
+        "x": 17,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode017",
+        "children": [
+          "timeNode019"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "preservation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "preservation"
+      ]
+    },
+    {
+      "id": "timeNode019",
+      "name": "Upgrade Preservation",
+      "description": "",
+      "tier": 4,
+      "branch": "preservation",
+      "position": {
+        "x": 18,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode018",
+        "children": [
+          "timeNode020"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "preservation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "preservation"
+      ]
+    },
+    {
+      "id": "timeNode020",
+      "name": "Automation Preservation",
+      "description": "",
+      "tier": 4,
+      "branch": "preservation",
+      "position": {
+        "x": 19,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode019",
+        "children": [
+          "timeNode021"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "preservation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "preservation"
+      ]
+    },
+    {
+      "id": "timeNode021",
+      "name": "Temporal Memory",
+      "description": "",
+      "tier": 5,
+      "branch": "preservation",
+      "position": {
+        "x": 20,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode020",
+        "children": [
+          "timeNode022"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "preservation"
+      ]
+    },
+    {
+      "id": "timeNode022",
+      "name": "Persistent Progress",
+      "description": "",
+      "tier": 5,
+      "branch": "preservation",
+      "position": {
+        "x": 21,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode021",
+        "children": [
+          "timeNode023"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "preservation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "preservation"
+      ]
+    },
+    {
+      "id": "timeNode023",
+      "name": "Temporal Scaling",
+      "description": "",
+      "tier": 5,
+      "branch": "scaling",
+      "position": {
+        "x": 22,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode022",
+        "children": [
+          "timeNode024"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "scaling",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "scaling"
+      ]
+    },
+    {
+      "id": "timeNode024",
+      "name": "Accelerating Growth",
+      "description": "",
+      "tier": 5,
+      "branch": "scaling",
+      "position": {
+        "x": 23,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode023",
+        "children": [
+          "timeNode025"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "scaling",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "scaling"
+      ]
+    },
+    {
+      "id": "timeNode025",
+      "name": "Time Feedback",
+      "description": "",
+      "tier": 5,
+      "branch": "scaling",
+      "position": {
+        "x": 24,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode024",
+        "children": [
+          "timeNode026"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "scaling",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "scaling"
+      ]
+    },
+    {
+      "id": "timeNode026",
+      "name": "Parallel Time",
+      "description": "",
+      "tier": 6,
+      "branch": "parallel",
+      "position": {
+        "x": 25,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode025",
+        "children": [
+          "timeNode027"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {
+        "parallelTime": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "parallel"
+      ]
+    },
+    {
+      "id": "timeNode027",
+      "name": "Temporal Branching",
+      "description": "",
+      "tier": 6,
+      "branch": "parallel",
+      "position": {
+        "x": 26,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode026",
+        "children": [
+          "timeNode028"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "parallel",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "parallel"
+      ]
+    },
+    {
+      "id": "timeNode028",
+      "name": "Multiple Timelines",
+      "description": "",
+      "tier": 6,
+      "branch": "parallel",
+      "position": {
+        "x": 27,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode027",
+        "children": [
+          "timeNode029"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "parallel",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "parallel"
+      ]
+    },
+    {
+      "id": "timeNode029",
+      "name": "Timeline Efficiency",
+      "description": "",
+      "tier": 6,
+      "branch": "parallel",
+      "position": {
+        "x": 28,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode028",
+        "children": [
+          "timeNode030"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "parallel",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "parallel"
+      ]
+    },
+    {
+      "id": "timeNode030",
+      "name": "Timeline Convergence",
+      "description": "",
+      "tier": 6,
+      "branch": "parallel",
+      "position": {
+        "x": 29,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode029",
+        "children": [
+          "timeNode031"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "parallel",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "parallel"
+      ]
+    },
+    {
+      "id": "timeNode031",
+      "name": "Temporal Computation",
+      "description": "",
+      "tier": 7,
+      "branch": "computing",
+      "position": {
+        "x": 30,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode030",
+        "children": [
+          "timeNode032"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "computing"
+      ]
+    },
+    {
+      "id": "timeNode032",
+      "name": "Chrono Processing",
+      "description": "",
+      "tier": 7,
+      "branch": "computing",
+      "position": {
+        "x": 31,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode031",
+        "children": [
+          "timeNode033"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "computing",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "computing"
+      ]
+    },
+    {
+      "id": "timeNode033",
+      "name": "Temporal Automation",
+      "description": "",
+      "tier": 7,
+      "branch": "automation",
+      "position": {
+        "x": 32,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode032",
+        "children": [
+          "timeNode034"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "automation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {
+        "temporalAutomation": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "automation"
+      ]
+    },
+    {
+      "id": "timeNode034",
+      "name": "Time-Based Automation",
+      "description": "",
+      "tier": 7,
+      "branch": "automation",
+      "position": {
+        "x": 33,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode033",
+        "children": [
+          "timeNode035"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "automation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "automation"
+      ]
+    },
+    {
+      "id": "timeNode035",
+      "name": "Autonomous Timeline",
+      "description": "",
+      "tier": 7,
+      "branch": "automation",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode034",
+        "children": [
+          "timeNode036"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "automation",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "automation"
+      ]
+    },
+    {
+      "id": "timeNode036",
+      "name": "Temporal Optimization",
+      "description": "",
+      "tier": 8,
+      "branch": "optimization",
+      "position": {
+        "x": 35,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode035",
+        "children": [
+          "timeNode037"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 1.25
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "optimization"
+      ]
+    },
+    {
+      "id": "timeNode037",
+      "name": "Future Projection",
+      "description": "",
+      "tier": 8,
+      "branch": "optimization",
+      "position": {
+        "x": 36,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode036",
+        "children": [
+          "timeNode038"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "optimization",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "optimization"
+      ]
+    },
+    {
+      "id": "timeNode038",
+      "name": "Past Integration",
+      "description": "",
+      "tier": 8,
+      "branch": "optimization",
+      "position": {
+        "x": 37,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode037",
+        "children": [
+          "timeNode039"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "optimization",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "optimization"
+      ]
+    },
+    {
+      "id": "timeNode039",
+      "name": "Causal Efficiency",
+      "description": "",
+      "tier": 8,
+      "branch": "optimization",
+      "position": {
+        "x": 38,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode038",
+        "children": [
+          "timeNode040"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "optimization",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "optimization"
+      ]
+    },
+    {
+      "id": "timeNode040",
+      "name": "Temporal Singularity",
+      "description": "",
+      "tier": 8,
+      "branch": "optimization",
+      "position": {
+        "x": 39,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode039",
+        "children": [
+          "timeNode041"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "optimization",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "optimization"
+      ]
+    },
+    {
+      "id": "timeNode041",
+      "name": "Infinite Time",
+      "description": "",
+      "tier": 9,
+      "branch": "endgame",
+      "position": {
+        "x": 40,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode040",
+        "children": [
+          "timeNode042"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 2
+      },
+      "scaling": {},
+      "unlockContent": {
+        "infiniteTime": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "endgame"
+      ]
+    },
+    {
+      "id": "timeNode042",
+      "name": "Time Expansion",
+      "description": "",
+      "tier": 9,
+      "branch": "endgame",
+      "position": {
+        "x": 41,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode041",
+        "children": [
+          "timeNode043"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "endgame",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "endgame"
+      ]
+    },
+    {
+      "id": "timeNode043",
+      "name": "Time Scaling",
+      "description": "",
+      "tier": 9,
+      "branch": "endgame",
+      "position": {
+        "x": 42,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode042",
+        "children": [
+          "timeNode044"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "endgame",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "endgame"
+      ]
+    },
+    {
+      "id": "timeNode044",
+      "name": "Eternal Progress",
+      "description": "",
+      "tier": 9,
+      "branch": "endgame",
+      "position": {
+        "x": 43,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode043",
+        "children": [
+          "timeNode045"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "endgame",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "endgame"
+      ]
+    },
+    {
+      "id": "timeNode045",
+      "name": "Chrono Engine",
+      "description": "",
+      "tier": 9,
+      "branch": "endgame",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode044",
+        "children": [
+          "timeNode046"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "endgame",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "endgame"
+      ]
+    },
+    {
+      "id": "timeNode046",
+      "name": "Time Crystal Resonance",
+      "description": "",
+      "tier": 10,
+      "branch": "crystal",
+      "position": {
+        "x": 45,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode045",
+        "children": [
+          "timeNode047"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 2
+      },
+      "scaling": {},
+      "unlockContent": {
+        "resources": [
+          "timeCrystal"
+        ]
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "crystal"
+      ]
+    },
+    {
+      "id": "timeNode047",
+      "name": "Time Crystal Formation",
+      "description": "",
+      "tier": 10,
+      "branch": "crystal",
+      "position": {
+        "x": 46,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode046",
+        "children": [
+          "timeNode048"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "crystal",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {
+        "timeCrystalProduction": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "crystal"
+      ]
+    },
+    {
+      "id": "timeNode048",
+      "name": "Time Crystal Amplification",
+      "description": "",
+      "tier": 10,
+      "branch": "crystal",
+      "position": {
+        "x": 47,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode047",
+        "children": [
+          "timeNode049"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "crystal",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "crystal"
+      ]
+    },
+    {
+      "id": "timeNode049",
+      "name": "Temporal Ascension",
+      "description": "",
+      "tier": 10,
+      "branch": "crystal",
+      "position": {
+        "x": 48,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode048",
+        "children": [
+          "timeNode050"
+        ]
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeEfficiency",
+        "target": "crystal",
+        "value": 1.15
+      },
+      "scaling": {},
+      "unlockContent": {},
+      "permanent": true,
+      "tags": [
+        "time",
+        "crystal"
+      ]
+    },
+    {
+      "id": "timeNode050",
+      "name": "Mastery of Time",
+      "description": "",
+      "tier": 10,
+      "branch": "final",
+      "position": {
+        "x": 49,
+        "y": 0
+      },
+      "connection": {
+        "parent": "timeNode049",
+        "children": []
+      },
+      "price": {},
+      "condition": {},
+      "effect": {
+        "type": "timeMultiplier",
+        "target": "timeProgress",
+        "value": 2
+      },
+      "scaling": {},
+      "unlockContent": {
+        "timeMastery": true
+      },
+      "permanent": true,
+      "tags": [
+        "time",
+        "final"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "technologiesTreeNodes": [
+    {
+      "id": "techNode001",
+      "name": "Quantum Initialization",
+      "tier": 1,
+      "branch": "quantum",
+      "position": { "x": 0, "y": 0 },
+      "connection": { "parent": "", "children": ["techNode002"] },
+      "price": { "priceId": "techNode001Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "quantumProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["quantumState"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["quantum", "production"]
+    },
+    {
+      "id": "techNode002",
+      "name": "Quantum Stability",
+      "tier": 1,
+      "branch": "quantum",
+      "position": { "x": 1, "y": 0 },
+      "connection": { "parent": "techNode001", "children": ["techNode003"] },
+      "price": { "priceId": "techNode002Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "quantumState",
+        "value": 1.25
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["quantum", "production"]
+    },
+    {
+      "id": "techNode003",
+      "name": "Qubit Processing",
+      "tier": 1,
+      "branch": "quantum",
+      "position": { "x": 2, "y": 0 },
+      "connection": { "parent": "techNode002", "children": ["techNode004", "techNode005"] },
+      "price": { "priceId": "techNode003Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "qubitProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["qubit"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["quantum", "qubit"]
+    },
+    {
+      "id": "techNode004",
+      "name": "Parallel Qubits",
+      "tier": 2,
+      "branch": "quantum",
+      "position": { "x": 3, "y": -1 },
+      "connection": { "parent": "techNode003", "children": ["techNode006"] },
+      "price": { "priceId": "techNode004Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "qubit",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["quantum", "parallel"]
+    },
+    {
+      "id": "techNode005",
+      "name": "Quantum Energy",
+      "tier": 2,
+      "branch": "quantum",
+      "position": { "x": 3, "y": 1 },
+      "connection": { "parent": "techNode003", "children": ["techNode006"] },
+      "price": { "priceId": "techNode005Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "quantumEnergyProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["quantumEnergy"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["quantum", "energy"]
+    },
+    {
+      "id": "techNode006",
+      "name": "Energy Conversion",
+      "tier": 2,
+      "branch": "energy",
+      "position": { "x": 4, "y": 0 },
+      "connection": { "parent": "techNode004", "children": ["techNode007"] },
+      "price": { "priceId": "techNode006Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "energy",
+        "value": 1.5
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["energy"]
+    },
+    {
+      "id": "techNode007",
+      "name": "Basic Data Processing",
+      "tier": 2,
+      "branch": "data",
+      "position": { "x": 5, "y": 0 },
+      "connection": { "parent": "techNode006", "children": ["techNode008"] },
+      "price": { "priceId": "techNode007Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "dataProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["data"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["data", "production"]
+    },
+    {
+      "id": "techNode008",
+      "name": "Bit Processing",
+      "tier": 3,
+      "branch": "data",
+      "position": { "x": 6, "y": 0 },
+      "connection": { "parent": "techNode007", "children": ["techNode009"] },
+      "price": { "priceId": "techNode008Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "bitProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["bit"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["data", "bit"]
+    },
+    {
+      "id": "techNode009",
+      "name": "Byte Processing",
+      "tier": 3,
+      "branch": "data",
+      "position": { "x": 7, "y": 0 },
+      "connection": { "parent": "techNode008", "children": ["techNode010"] },
+      "price": { "priceId": "techNode009Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "byteProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["byte"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["data", "byte"]
+    },
+    {
+      "id": "techNode010",
+      "name": "Data Compression",
+      "tier": 3,
+      "branch": "data",
+      "position": { "x": 8, "y": 0 },
+      "connection": { "parent": "techNode009", "children": ["techNode011"] },
+      "price": { "priceId": "techNode010Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "data",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["data", "efficiency"]
+    },
+    {
+      "id": "techNode011",
+      "name": "Thread Creation",
+      "tier": 3,
+      "branch": "processing",
+      "position": { "x": 9, "y": 0 },
+      "connection": { "parent": "techNode010", "children": ["techNode012"] },
+      "price": { "priceId": "techNode011Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "threadProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["thread"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["processing", "thread"]
+    },
+    {
+      "id": "techNode012",
+      "name": "Parallel Processing",
+      "tier": 4,
+      "branch": "processing",
+      "position": { "x": 10, "y": 0 },
+      "connection": { "parent": "techNode011", "children": ["techNode013"] },
+      "price": { "priceId": "techNode012Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "thread",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["processing", "parallel"]
+    },
+    {
+      "id": "techNode013",
+      "name": "Core Architecture",
+      "tier": 4,
+      "branch": "hardware",
+      "position": { "x": 11, "y": 0 },
+      "connection": { "parent": "techNode012", "children": ["techNode014"] },
+      "price": { "priceId": "techNode013Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "coreProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["core"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["hardware", "core"]
+    },
+    {
+      "id": "techNode014",
+      "name": "Multi-Core",
+      "tier": 4,
+      "branch": "hardware",
+      "position": { "x": 12, "y": 0 },
+      "connection": { "parent": "techNode013", "children": ["techNode015"] },
+      "price": { "priceId": "techNode014Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "core",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["hardware", "core"]
+    },
+    {
+      "id": "techNode015",
+      "name": "Clock Control",
+      "tier": 4,
+      "branch": "clock",
+      "position": { "x": 13, "y": 0 },
+      "connection": { "parent": "techNode014", "children": ["techNode016"] },
+      "price": { "priceId": "techNode015Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "clockControl",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["clock"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["clock"]
+    },
+    {
+      "id": "techNode016",
+      "name": "High Frequency",
+      "tier": 5,
+      "branch": "clock",
+      "position": { "x": 14, "y": 0 },
+      "connection": { "parent": "techNode015", "children": ["techNode017"] },
+      "price": { "priceId": "techNode016Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "clock",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["clock", "frequency"]
+    },
+    {
+      "id": "techNode017",
+      "name": "Memory Architecture",
+      "tier": 5,
+      "branch": "memory",
+      "position": { "x": 15, "y": 0 },
+      "connection": { "parent": "techNode016", "children": ["techNode018"] },
+      "price": { "priceId": "techNode017Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "memoryProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["memory"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["memory"]
+    },
+    {
+      "id": "techNode018",
+      "name": "Memory Optimization",
+      "tier": 5,
+      "branch": "memory",
+      "position": { "x": 16, "y": 0 },
+      "connection": { "parent": "techNode017", "children": ["techNode019"] },
+      "price": { "priceId": "techNode018Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "memory",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["memory", "efficiency"]
+    },
+    {
+      "id": "techNode019",
+      "name": "Silicon Processing",
+      "tier": 5,
+      "branch": "materials",
+      "position": { "x": 17, "y": 0 },
+      "connection": { "parent": "techNode018", "children": ["techNode020"] },
+      "price": { "priceId": "techNode019Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "siliconProcessing",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["silicon"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["materials", "silicon"]
+    },
+    {
+      "id": "techNode020",
+      "name": "Metal Processing",
+      "tier": 5,
+      "branch": "materials",
+      "position": { "x": 18, "y": 0 },
+      "connection": { "parent": "techNode019", "children": ["techNode021"] },
+      "price": { "priceId": "techNode020Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "metalProcessing",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["metal"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["materials", "metal"]
+    },
+    {
+      "id": "techNode021",
+      "name": "Crystal Processing",
+      "tier": 6,
+      "branch": "materials",
+      "position": { "x": 19, "y": 0 },
+      "connection": { "parent": "techNode020", "children": ["techNode022"] },
+      "price": { "priceId": "techNode021Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "crystalProcessing",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["crystal"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["materials", "crystal"]
+    },
+    {
+      "id": "techNode022",
+      "name": "Chip Manufacturing",
+      "tier": 6,
+      "branch": "hardware",
+      "position": { "x": 20, "y": 0 },
+      "connection": { "parent": "techNode021", "children": ["techNode023"] },
+      "price": { "priceId": "techNode022Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "chipProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["chip"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["hardware", "chip"]
+    },
+    {
+      "id": "techNode023",
+      "name": "Processor Design",
+      "tier": 6,
+      "branch": "hardware",
+      "position": { "x": 21, "y": 0 },
+      "connection": { "parent": "techNode022", "children": ["techNode024"] },
+      "price": { "priceId": "techNode023Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "processorProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["processor"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["hardware", "processor"]
+    },
+    {
+      "id": "techNode024",
+      "name": "CPU Architecture",
+      "tier": 6,
+      "branch": "computing",
+      "position": { "x": 22, "y": 0 },
+      "connection": { "parent": "techNode023", "children": ["techNode025"] },
+      "price": { "priceId": "techNode024Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "cpuProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["cpu"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "cpu"]
+    },
+    {
+      "id": "techNode025",
+      "name": "GPU Architecture",
+      "tier": 7,
+      "branch": "computing",
+      "position": { "x": 23, "y": -1 },
+      "connection": { "parent": "techNode024", "children": ["techNode026"] },
+      "price": { "priceId": "techNode025Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "gpuProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["gpu"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "gpu"]
+    },
+    {
+      "id": "techNode026",
+      "name": "SPU Architecture",
+      "tier": 7,
+      "branch": "computing",
+      "position": { "x": 24, "y": -1 },
+      "connection": { "parent": "techNode025", "children": ["techNode027"] },
+      "price": { "priceId": "techNode026Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "spuProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["spu"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "spu"]
+    },
+    {
+      "id": "techNode027",
+      "name": "NPU Architecture",
+      "tier": 7,
+      "branch": "computing",
+      "position": { "x": 25, "y": -1 },
+      "connection": { "parent": "techNode026", "children": ["techNode028"] },
+      "price": { "priceId": "techNode027Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "npuProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["npu"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "npu"]
+    },
+    {
+      "id": "techNode028",
+      "name": "Quantum Processor",
+      "tier": 7,
+      "branch": "quantum",
+      "position": { "x": 25, "y": 1 },
+      "connection": { "parent": "techNode026", "children": ["techNode029"] },
+      "price": { "priceId": "techNode028Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "quantumProcessorProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["quantumProcessor"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["quantum", "computing"]
+    },
+    {
+      "id": "techNode029",
+      "name": "Mainboard Assembly",
+      "tier": 7,
+      "branch": "hardware",
+      "position": { "x": 26, "y": 0 },
+      "connection": { "parent": "techNode028", "children": ["techNode030"] },
+      "price": { "priceId": "techNode029Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "mainboardProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["mainboard"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["hardware", "mainboard"]
+    },
+    {
+      "id": "techNode030",
+      "name": "System Architecture",
+      "tier": 8,
+      "branch": "system",
+      "position": { "x": 27, "y": 0 },
+      "connection": { "parent": "techNode029", "children": ["techNode031"] },
+      "price": { "priceId": "techNode030Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "systemArchitecture",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["system"]
+    },
+    {
+      "id": "techNode031",
+      "name": "Network Interface",
+      "tier": 8,
+      "branch": "network",
+      "position": { "x": 28, "y": 0 },
+      "connection": { "parent": "techNode030", "children": ["techNode032"] },
+      "price": { "priceId": "techNode031Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "networkProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["network"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["network"]
+    },
+    {
+      "id": "techNode032",
+      "name": "High-Speed Network",
+      "tier": 8,
+      "branch": "network",
+      "position": { "x": 29, "y": 0 },
+      "connection": { "parent": "techNode031", "children": ["techNode033"] },
+      "price": { "priceId": "techNode032Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "network",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["network", "speed"]
+    },
+    {
+      "id": "techNode033",
+      "name": "Server Architecture",
+      "tier": 8,
+      "branch": "server",
+      "position": { "x": 30, "y": 0 },
+      "connection": { "parent": "techNode032", "children": ["techNode034"] },
+      "price": { "priceId": "techNode033Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "serverProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["server"]
+    },
+    {
+      "id": "techNode034",
+      "name": "Server Farm",
+      "tier": 9,
+      "branch": "server",
+      "position": { "x": 31, "y": 0 },
+      "connection": { "parent": "techNode033", "children": ["techNode035"] },
+      "price": { "priceId": "techNode034Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "serverFarm",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["server", "facility"]
+    },
+    {
+      "id": "techNode035",
+      "name": "Data Center",
+      "tier": 9,
+      "branch": "server",
+      "position": { "x": 32, "y": 0 },
+      "connection": { "parent": "techNode034", "children": ["techNode036"] },
+      "price": { "priceId": "techNode035Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "dataCenter",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["server", "dataCenter"]
+    },
+    {
+      "id": "techNode036",
+      "name": "Distributed Computing",
+      "tier": 9,
+      "branch": "computing",
+      "position": { "x": 33, "y": 0 },
+      "connection": { "parent": "techNode035", "children": ["techNode037"] },
+      "price": { "priceId": "techNode036Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "globalProductionMultiplier",
+        "target": "computing",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "distributed"]
+    },
+    {
+      "id": "techNode037",
+      "name": "AI Model Training",
+      "tier": 9,
+      "branch": "ai",
+      "position": { "x": 34, "y": 0 },
+      "connection": { "parent": "techNode036", "children": ["techNode038"] },
+      "price": { "priceId": "techNode037Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "aiModelProduction",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["aiModel"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["ai"]
+    },
+    {
+      "id": "techNode038",
+      "name": "Parameter Optimization",
+      "tier": 10,
+      "branch": "ai",
+      "position": { "x": 35, "y": 0 },
+      "connection": { "parent": "techNode037", "children": ["techNode039"] },
+      "price": { "priceId": "techNode038Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "parameter",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": ["parameter"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["ai", "parameter"]
+    },
+    {
+      "id": "techNode039",
+      "name": "Token Processing",
+      "tier": 10,
+      "branch": "ai",
+      "position": { "x": 36, "y": 0 },
+      "connection": { "parent": "techNode038", "children": ["techNode040"] },
+      "price": { "priceId": "techNode039Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "tokenProcessing",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": ["token"],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["ai", "token"]
+    },
+    {
+      "id": "techNode040",
+      "name": "AI Acceleration",
+      "tier": 10,
+      "branch": "ai",
+      "position": { "x": 37, "y": 0 },
+      "connection": { "parent": "techNode039", "children": ["techNode041"] },
+      "price": { "priceId": "techNode040Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionMultiplier",
+        "target": "ai",
+        "value": 3
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["ai", "acceleration"]
+    },
+    {
+      "id": "techNode041",
+      "name": "Advanced Automation",
+      "tier": 10,
+      "branch": "automation",
+      "position": { "x": 38, "y": 0 },
+      "connection": { "parent": "techNode040", "children": ["techNode042"] },
+      "price": { "priceId": "techNode041Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "unlock",
+        "target": "advancedAutomation",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": ["advancedAutomation"],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["automation"]
+    },
+    {
+      "id": "techNode042",
+      "name": "Automation Networking",
+      "tier": 11,
+      "branch": "automation",
+      "position": { "x": 39, "y": 0 },
+      "connection": { "parent": "techNode041", "children": ["techNode043"] },
+      "price": { "priceId": "techNode042Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "automationEfficiencyMultiplier",
+        "target": "automation",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["automation", "network"]
+    },
+    {
+      "id": "techNode043",
+      "name": "Resource Routing",
+      "tier": 11,
+      "branch": "automation",
+      "position": { "x": 40, "y": 0 },
+      "connection": { "parent": "techNode042", "children": ["techNode044"] },
+      "price": { "priceId": "techNode043Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "resourceRouting",
+        "target": "all",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": ["resourceRouting"],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["automation", "routing"]
+    },
+    {
+      "id": "techNode044",
+      "name": "Production Scheduling",
+      "tier": 11,
+      "branch": "automation",
+      "position": { "x": 41, "y": 0 },
+      "connection": { "parent": "techNode043", "children": ["techNode045"] },
+      "price": { "priceId": "techNode044Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "productionScheduling",
+        "target": "all",
+        "value": 1
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": ["productionScheduling"],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["automation", "production"]
+    },
+    {
+      "id": "techNode045",
+      "name": "System Optimization",
+      "tier": 11,
+      "branch": "system",
+      "position": { "x": 42, "y": 0 },
+      "connection": { "parent": "techNode044", "children": ["techNode046"] },
+      "price": { "priceId": "techNode045Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "globalProductionMultiplier",
+        "target": "all",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": ["systemOptimization"],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["system", "efficiency"]
+    },
+    {
+      "id": "techNode046",
+      "name": "Computational Scaling",
+      "tier": 12,
+      "branch": "computing",
+      "position": { "x": 43, "y": 0 },
+      "connection": { "parent": "techNode045", "children": ["techNode047"] },
+      "price": { "priceId": "techNode046Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "globalProductionMultiplier",
+        "target": "computing",
+        "value": 4
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "scaling"]
+    },
+    {
+      "id": "techNode047",
+      "name": "Autonomous Systems",
+      "tier": 12,
+      "branch": "automation",
+      "position": { "x": 44, "y": 0 },
+      "connection": { "parent": "techNode046", "children": ["techNode048"] },
+      "price": { "priceId": "techNode047Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "automationLevelMultiplier",
+        "target": "automation",
+        "value": 2
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": ["autonomousSystems"],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["automation", "autonomous"]
+    },
+    {
+      "id": "techNode048",
+      "name": "Advanced Computing",
+      "tier": 12,
+      "branch": "computing",
+      "position": { "x": 45, "y": 0 },
+      "connection": { "parent": "techNode047", "children": ["techNode049"] },
+      "price": { "priceId": "techNode048Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "globalProductionMultiplier",
+        "target": "computing",
+        "value": 5
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["computing", "advanced"]
+    },
+    {
+      "id": "techNode049",
+      "name": "Artificial Intelligence",
+      "tier": 13,
+      "branch": "ai",
+      "position": { "x": 46, "y": 0 },
+      "connection": { "parent": "techNode048", "children": ["techNode050"] },
+      "price": { "priceId": "techNode049Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "globalProductionMultiplier",
+        "target": "ai",
+        "value": 5
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": ["artificialIntelligence"],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": ["ai", "advanced"]
+    },
+    {
+      "id": "techNode050",
+      "name": "Technological Singularity",
+      "tier": 13,
+      "branch": "final",
+      "position": { "x": 47, "y": 0 },
+      "connection": { "parent": "techNode049", "children": [] },
+      "price": { "priceId": "techNode050Price" },
+      "condition": { "conditionIds": [] },
+      "effect": {
+        "type": "globalProductionMultiplier",
+        "target": "all",
+        "value": 10
+      },
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": true,
+      "tags": ["final", "technology", "singularity"]
+    }
+  ]
+}

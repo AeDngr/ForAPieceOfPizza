@@ -1,0 +1,23 @@
+{
+  "numberTemplate": {
+    "mantissa": 1.0,
+    "exponent": 0,
+    "format": {
+      "notation": "scientific",
+      "decimalPlaces": 2,
+      "showExponent": true
+    },
+    "limit": {
+      "minExponent": -999999,
+      "maxExponent": 999999
+    },
+    "operations": {
+      "add": true,
+      "subtract": true,
+      "multiply": true,
+      "divide": true,
+      "power": true
+    },
+    "normalize": true
+  }
+}

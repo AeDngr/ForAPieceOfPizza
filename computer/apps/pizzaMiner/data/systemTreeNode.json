@@ -1,0 +1,724 @@
+{
+  "systemTreeNodes": [
+    {
+      "id": "systemNode001",
+      "name": "System Initialization",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode002",
+      "name": "System Stability",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode003",
+      "name": "Basic Automation",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode004",
+      "name": "Automation Efficiency",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode005",
+      "name": "Automation Speed",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode006",
+      "name": "Resource Automation",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode007",
+      "name": "Production Automation",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode008",
+      "name": "Processing Automation",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode009",
+      "name": "Automated Routing",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode010",
+      "name": "Automated Storage",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode011",
+      "name": "Parallel Automation",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode012",
+      "name": "Automation Capacity",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode013",
+      "name": "Automation Scaling",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode014",
+      "name": "Advanced Automation",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode015",
+      "name": "Autonomous Production",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode016",
+      "name": "Self Optimization",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode017",
+      "name": "System Coordination",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode018",
+      "name": "System Expansion",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode019",
+      "name": "System Mastery",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode020",
+      "name": "Automated System",
+      "point": "sp",
+      "pointName": "SP"
+    },
+    {
+      "id": "systemNode021",
+      "name": "Automation Core",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode022",
+      "name": "Automation Network",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode023",
+      "name": "Advanced Routing",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode024",
+      "name": "Intelligent Routing",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode025",
+      "name": "Dynamic Production",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode026",
+      "name": "Production Balancing",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode027",
+      "name": "Resource Balancing",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode028",
+      "name": "Automated Processing",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode029",
+      "name": "Multi Factory Control",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode030",
+      "name": "Factory Synchronization",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode031",
+      "name": "Automation Replication",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode032",
+      "name": "Recursive Automation",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode033",
+      "name": "Automation Acceleration",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode034",
+      "name": "Automation Compression",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode035",
+      "name": "Automation Multiplication",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode036",
+      "name": "Autonomous Management",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode037",
+      "name": "Intelligent Automation",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode038",
+      "name": "Advanced Coordination",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode039",
+      "name": "Super Automation",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode040",
+      "name": "Automation Ascension",
+      "point": "ap",
+      "pointName": "AP"
+    },
+    {
+      "id": "systemNode041",
+      "name": "Superautomation Core",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode042",
+      "name": "Superautomation Network",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode043",
+      "name": "Superautomation Efficiency",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode044",
+      "name": "Superautomation Speed",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode045",
+      "name": "Superautomation Capacity",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode046",
+      "name": "Superautomation Scaling",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode047",
+      "name": "Recursive Systems",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode048",
+      "name": "Parallel Systems",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode049",
+      "name": "System Replication",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode050",
+      "name": "System Synchronization",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode051",
+      "name": "System Optimization",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode052",
+      "name": "System Compression",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode053",
+      "name": "System Acceleration",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode054",
+      "name": "System Multiplication",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode055",
+      "name": "Autonomous Systems",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode056",
+      "name": "Distributed Automation",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode057",
+      "name": "Unified Automation",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode058",
+      "name": "Advanced Superautomation",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode059",
+      "name": "Superautomation Mastery",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode060",
+      "name": "System Automation",
+      "point": "spap",
+      "pointName": "SPAP"
+    },
+    {
+      "id": "systemNode061",
+      "name": "System Automation Core",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode062",
+      "name": "System Automation Network",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode063",
+      "name": "System Automation Efficiency",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode064",
+      "name": "System Automation Speed",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode065",
+      "name": "System Automation Capacity",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode066",
+      "name": "System Automation Scaling",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode067",
+      "name": "Automated System Creation",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode068",
+      "name": "System Replication",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode069",
+      "name": "System Expansion",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode070",
+      "name": "System Integration",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode071",
+      "name": "System Synchronization",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode072",
+      "name": "System Optimization",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode073",
+      "name": "System Compression",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode074",
+      "name": "System Acceleration",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode075",
+      "name": "System Multiplication",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode076",
+      "name": "Autonomous System Control",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode077",
+      "name": "Infinite Automation",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode078",
+      "name": "System Evolution",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode079",
+      "name": "System Transcendence",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode080",
+      "name": "System Automation Mastery",
+      "point": "sap",
+      "pointName": "SAP"
+    },
+    {
+      "id": "systemNode081",
+      "name": "Research Foundation",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode082",
+      "name": "Research Efficiency",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode083",
+      "name": "Research Acceleration",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode084",
+      "name": "Research Capacity",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode085",
+      "name": "Research Optimization",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode086",
+      "name": "Technology Analysis",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode087",
+      "name": "Technology Integration",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode088",
+      "name": "Advanced Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode089",
+      "name": "Experimental Systems",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode090",
+      "name": "Experimental Automation",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode091",
+      "name": "Computational Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode092",
+      "name": "Quantum Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode093",
+      "name": "Hardware Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode094",
+      "name": "Software Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode095",
+      "name": "Network Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode096",
+      "name": "AI Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode097",
+      "name": "Autonomous Research",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode098",
+      "name": "Research Scaling",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode099",
+      "name": "Research Mastery",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode100",
+      "name": "Technological Ascension",
+      "point": "researchPoint",
+      "pointName": "Research Point"
+    },
+    {
+      "id": "systemNode101",
+      "name": "Network Initialization",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode102",
+      "name": "Network Stability",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode103",
+      "name": "Network Efficiency",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode104",
+      "name": "Network Speed",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode105",
+      "name": "Network Capacity",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode106",
+      "name": "Network Expansion",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode107",
+      "name": "Data Routing",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode108",
+      "name": "Advanced Routing",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode109",
+      "name": "Network Optimization",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode110",
+      "name": "Network Compression",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode111",
+      "name": "Parallel Networking",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode112",
+      "name": "Network Synchronization",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode113",
+      "name": "Distributed Network",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode114",
+      "name": "Global Network",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode115",
+      "name": "Autonomous Network",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode116",
+      "name": "Network Intelligence",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode117",
+      "name": "Network Scaling",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode118",
+      "name": "Network Integration",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode119",
+      "name": "Network Mastery",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    },
+    {
+      "id": "systemNode120",
+      "name": "Infinite Network",
+      "point": "networkPoint",
+      "pointName": "Network Point"
+    }
+  ]
+}

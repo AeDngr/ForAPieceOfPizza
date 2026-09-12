@@ -1,0 +1,109 @@
+{
+  "points": [
+    {
+      "id": "sp",
+      "name": "System Point",
+      "description": "Point obtained from a System Reset and used for automation progression.",
+      "tier": 1,
+      "type": "prestige",
+      "sourceReset": "systemReset",
+      "condition": {
+        "enabled": false,
+        "conditionIds": []
+      },
+      "effects": {},
+      "tags": [
+        "prestige",
+        "system",
+        "reset"
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Automation Point",
+      "description": "Point obtained from an Automation Reset and used to build Superautomation.",
+      "tier": 2,
+      "type": "prestige",
+      "sourceReset": "automationReset",
+      "condition": {
+        "enabled": false,
+        "conditionIds": []
+      },
+      "effects": {},
+      "tags": [
+        "prestige",
+        "automation",
+        "reset"
+      ]
+    },
+    {
+      "id": "spap",
+      "name": "Superautomation Point",
+      "description": "Point obtained from a Superautomation reset and used for System Automation progression.",
+      "tier": 3,
+      "type": "prestige",
+      "sourceReset": "superAutomationReset",
+      "condition": {
+        "enabled": false,
+        "conditionIds": []
+      },
+      "effects": {},
+      "tags": [
+        "prestige",
+        "superautomation",
+        "reset"
+      ]
+    },
+    {
+      "id": "sap",
+      "name": "System Automation Point",
+      "description": "Point used in System Automation progression and for advanced progression such as purchasing the BTC Miner.",
+      "tier": 4,
+      "type": "prestige",
+      "sourceReset": "systemAutomationReset",
+      "condition": {
+        "enabled": false,
+        "conditionIds": []
+      },
+      "effects": {},
+      "tags": [
+        "prestige",
+        "systemAutomation",
+        "reset",
+        "btc"
+      ]
+    },
+    {
+      "id": "researchPoint",
+      "name": "Research Point",
+      "description": "Point associated with research progression.",
+      "tier": 0,
+      "type": "research",
+      "sourceReset": "",
+      "condition": {
+        "enabled": false,
+        "conditionIds": []
+      },
+      "effects": {},
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "networkPoint",
+      "name": "Network Point",
+      "description": "Point associated with network-related progression.",
+      "tier": 0,
+      "type": "network",
+      "sourceReset": "",
+      "condition": {
+        "enabled": false,
+        "conditionIds": []
+      },
+      "effects": {},
+      "tags": [
+        "network"
+      ]
+    }
+  ]
+}

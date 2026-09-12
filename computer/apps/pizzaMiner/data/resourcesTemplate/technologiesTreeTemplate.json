@@ -1,0 +1,32 @@
+{
+  "technologiesTreeTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "version": 1,
+    "settings": {
+      "maxTier": 0,
+      "allowBranching": true,
+      "allowMultiplePaths": true
+    },
+    "root": {
+      "nodeId": ""
+    },
+    "finalNode": {
+      "nodeId": ""
+    },
+    "branches": [],
+    "nodes": [],
+    "connections": [],
+    "globalEffects": {},
+    "visibility": {
+      "showTree": true,
+      "showLockedNodes": true
+    },
+    "ui": {
+      "layout": "tree",
+      "scale": 1
+    },
+    "tags": []
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "units": [
+    {
+      "id": "bit",
+      "name": "Bit",
+      "symbol": "bit",
+      "category": "data"
+    },
+    {
+      "id": "byte",
+      "name": "Byte",
+      "symbol": "B",
+      "category": "data"
+    },
+    {
+      "id": "kilobyte",
+      "name": "Kilobyte",
+      "symbol": "KB",
+      "category": "data"
+    },
+    {
+      "id": "megabyte",
+      "name": "Megabyte",
+      "symbol": "MB",
+      "category": "data"
+    },
+    {
+      "id": "gigabyte",
+      "name": "Gigabyte",
+      "symbol": "GB",
+      "category": "data"
+    },
+    {
+      "id": "terabyte",
+      "name": "Terabyte",
+      "symbol": "TB",
+      "category": "data"
+    },
+    {
+      "id": "petabyte",
+      "name": "Petabyte",
+      "symbol": "PB",
+      "category": "data"
+    },
+    {
+      "id": "exabyte",
+      "name": "Exabyte",
+      "symbol": "EB",
+      "category": "data"
+    },
+    {
+      "id": "zettabyte",
+      "name": "Zettabyte",
+      "symbol": "ZB",
+      "category": "data"
+    },
+    {
+      "id": "yottabyte",
+      "name": "Yottabyte",
+      "symbol": "YB",
+      "category": "data"
+    },
+    {
+      "id": "quantumByte",
+      "name": "Quantum Byte",
+      "symbol": "QB",
+      "category": "data"
+    },
+    {
+      "id": "xenoByte",
+      "name": "Xeno Byte",
+      "symbol": "XB",
+      "category": "data"
+    },
+    {
+      "id": "superByte",
+      "name": "Super Byte",
+      "symbol": "SB",
+      "category": "data"
+    },
+    {
+      "id": "volt",
+      "name": "Volt",
+      "symbol": "V",
+      "category": "voltage"
+    },
+    {
+      "id": "kilovolt",
+      "name": "Kilovolt",
+      "symbol": "kV",
+      "category": "voltage"
+    },
+    {
+      "id": "megavolt",
+      "name": "Megavolt",
+      "symbol": "MV",
+      "category": "voltage"
+    },
+    {
+      "id": "gigavolt",
+      "name": "Gigavolt",
+      "symbol": "GV",
+      "category": "voltage"
+    },
+    {
+      "id": "teravolt",
+      "name": "Teravolt",
+      "symbol": "TV",
+      "category": "voltage"
+    },
+    {
+      "id": "watt",
+      "name": "Watt",
+      "symbol": "W",
+      "category": "power"
+    },
+    {
+      "id": "kilowatt",
+      "name": "Kilowatt",
+      "symbol": "kW",
+      "category": "power"
+    },
+    {
+      "id": "megawatt",
+      "name": "Megawatt",
+      "symbol": "MW",
+      "category": "power"
+    },
+    {
+      "id": "gigawatt",
+      "name": "Gigawatt",
+      "symbol": "GW",
+      "category": "power"
+    },
+    {
+      "id": "terawatt",
+      "name": "Terawatt",
+      "symbol": "TW",
+      "category": "power"
+    },
+    {
+      "id": "gigahertz",
+      "name": "Gigahertz",
+      "symbol": "GHz",
+      "category": "clock"
+    },
+    {
+      "id": "bps",
+      "name": "Bits per second",
+      "symbol": "bps",
+      "category": "network"
+    },
+    {
+      "id": "kbps",
+      "name": "Kilobits per second",
+      "symbol": "Kbps",
+      "category": "network"
+    },
+    {
+      "id": "mbps",
+      "name": "Megabits per second",
+      "symbol": "Mbps",
+      "category": "network"
+    },
+    {
+      "id": "gbps",
+      "name": "Gigabits per second",
+      "symbol": "Gbps",
+      "category": "network"
+    },
+    {
+      "id": "tbps",
+      "name": "Terabits per second",
+      "symbol": "Tbps",
+      "category": "network"
+    },
+    {
+      "id": "hashPerSecond",
+      "name": "Hash per second",
+      "symbol": "H/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "kilohashPerSecond",
+      "name": "Kilohash per second",
+      "symbol": "KH/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "megahashPerSecond",
+      "name": "Megahash per second",
+      "symbol": "MH/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "gigahashPerSecond",
+      "name": "Gigahash per second",
+      "symbol": "GH/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "terahashPerSecond",
+      "name": "Terahash per second",
+      "symbol": "TH/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "petahashPerSecond",
+      "name": "Petahash per second",
+      "symbol": "PH/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "exahashPerSecond",
+      "name": "Exahash per second",
+      "symbol": "EH/s",
+      "category": "hashRate"
+    },
+    {
+      "id": "flops",
+      "name": "FLOPS",
+      "symbol": "FLOPS",
+      "category": "computing"
+    }
+  ]
+}

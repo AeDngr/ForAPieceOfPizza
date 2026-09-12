@@ -1,0 +1,34 @@
+{
+  "technologiesTreeNodes": [
+    {
+      "id": "",
+      "name": "",
+      "tier": 0,
+      "branch": "",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "connection": {
+        "parent": "",
+        "children": []
+      },
+      "price": {
+        "priceId": ""
+      },
+      "condition": {
+        "conditionIds": []
+      },
+      "effect": {},
+      "unlockContent": {
+        "resources": [],
+        "points": [],
+        "upgrades": [],
+        "automates": [],
+        "apps": []
+      },
+      "permanent": false,
+      "tags": []
+    }
+  ]
+}

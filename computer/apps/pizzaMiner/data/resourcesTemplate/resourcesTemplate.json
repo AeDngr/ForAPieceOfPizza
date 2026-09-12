@@ -1,0 +1,12 @@
+{
+  "resourcesTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "tier": 0,
+    "price": {},
+    "condition": {},
+    "unit": "",
+    "tags": []
+  }
+}

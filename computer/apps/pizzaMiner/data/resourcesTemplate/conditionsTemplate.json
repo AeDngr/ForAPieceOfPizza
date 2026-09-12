@@ -1,0 +1,16 @@
+{
+  "conditionTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "type": "",
+    "target": "",
+    "operator": "",
+    "value": 0,
+    "unit": "",
+    "children": [],
+    "logic": "",
+    "parameters": {},
+    "tags": []
+  }
+}

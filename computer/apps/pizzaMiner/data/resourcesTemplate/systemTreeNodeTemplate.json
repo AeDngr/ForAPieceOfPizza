@@ -1,0 +1,50 @@
+{
+  "systemTreeNodeTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "tier": 0,
+    "branch": "",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "connection": {
+      "parent": "",
+      "children": []
+    },
+    "reset": {
+      "enabled": false,
+      "resetType": "",
+      "requirement": {}
+    },
+    "reward": {
+      "enabled": false,
+      "point": "",
+      "amount": {
+        "mantissa": 0,
+        "exponent": 0
+      }
+    },
+    "price": {},
+    "unlock": {
+      "enabled": false,
+      "conditions": []
+    },
+    "effect": {},
+    "scaling": {},
+    "unlockContent": {
+      "resources": [],
+      "points": [],
+      "upgrades": [],
+      "automates": [],
+      "apps": []
+    },
+    "permanent": false,
+    "visibility": {
+      "showInTree": true,
+      "showLocked": true
+    },
+    "tags": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "systemTreeTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "version": 1,
+    "settings": {
+      "maxTier": 0,
+      "allowBranching": true,
+      "allowMultiplePaths": true,
+      "resetBased": true
+    },
+    "root": {
+      "nodeId": ""
+    },
+    "finalNode": {
+      "nodeId": ""
+    },
+    "branches": [],
+    "nodes": [],
+    "connections": [],
+    "resetSystems": [],
+    "globalEffects": {},
+    "unlockContent": {
+      "resources": [],
+      "points": [],
+      "upgrades": [],
+      "automates": [],
+      "apps": []
+    },
+    "visibility": {
+      "showTree": true,
+      "showLockedNodes": true
+    },
+    "ui": {
+      "layout": "tree",
+      "scale": 1
+    },
+    "tags": []
+  }
+}

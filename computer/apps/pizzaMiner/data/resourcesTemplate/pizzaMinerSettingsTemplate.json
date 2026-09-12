@@ -1,0 +1,42 @@
+{
+  "pizzaMinerSettingsTemplate": {
+    "id": "",
+    "gameplay": {
+      "autoSave": true,
+      "offlineProgress": true,
+      "autoProduction": true
+    },
+    "numberDisplay": {
+      "notation": "scientific",
+      "decimalPlaces": 2,
+      "showExponent": true
+    },
+    "automation": {
+      "enabled": true,
+      "showAutomationStatus": true
+    },
+    "interface": {
+      "theme": "default",
+      "showResourceTab": true,
+      "showTreeTab": true,
+      "showMissionTab": true,
+      "showAchievementTab": true
+    },
+    "language": {
+      "default": "en",
+      "available": [
+        "en",
+        "ko"
+      ]
+    },
+    "performance": {
+      "tickRate": 1000,
+      "limitEffects": false
+    },
+    "debug": {
+      "enabled": false,
+      "showLogs": false
+    },
+    "custom": {}
+  }
+}

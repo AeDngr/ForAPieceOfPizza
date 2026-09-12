@@ -1,0 +1,49 @@
+{
+  "pizzaMinerStatsTemplate": {
+    "id": "",
+    "time": {
+      "playTime": 0,
+      "firstPlay": "",
+      "lastPlay": ""
+    },
+    "production": {
+      "totalProduced": {},
+      "highestProduction": {},
+      "productionTime": 0
+    },
+    "resources": {
+      "highestAmount": {},
+      "totalCollected": {}
+    },
+    "reset": {
+      "systemResetCount": 0,
+      "automationResetCount": 0,
+      "superAutomationResetCount": 0,
+      "systemAutomationResetCount": 0
+    },
+    "points": {
+      "totalEarned": {},
+      "highestOwned": {}
+    },
+    "tree": {
+      "technologyUnlocked": 0,
+      "timeTreeUnlocked": 0,
+      "systemTreeUnlocked": 0
+    },
+    "automation": {
+      "totalPurchased": 0,
+      "highestAutomationLevel": 0
+    },
+    "achievement": {
+      "unlockedCount": 0
+    },
+    "mission": {
+      "completedCount": 0
+    },
+    "record": {
+      "highestTier": 0,
+      "highestResource": "",
+      "specialRecords": {}
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "facilities": [
+    {
+      "id": "server",
+      "name": "Server",
+      "description": "",
+      "tier": 0,
+      "production": {
+        "enabled": true,
+        "resources": []
+      },
+      "owned": 0,
+      "tags": [
+        "server"
+      ]
+    },
+    {
+      "id": "serverFarm",
+      "name": "Server Farm",
+      "description": "",
+      "tier": 0,
+      "production": {
+        "enabled": true,
+        "resources": []
+      },
+      "owned": 0,
+      "tags": [
+        "server"
+      ]
+    },
+    {
+      "id": "dataCenter",
+      "name": "Data Center",
+      "description": "",
+      "tier": 0,
+      "production": {
+        "enabled": true,
+        "resources": []
+      },
+      "owned": 0,
+      "tags": [
+        "server"
+      ]
+    },
+    {
+      "id": "btcMiner",
+      "name": "BTC Miner",
+      "description": "",
+      "tier": 0,
+      "production": {
+        "enabled": true,
+        "resources": [
+          "btc"
+        ]
+      },
+      "owned": 0,
+      "tags": [
+        "crypto",
+        "btc"
+      ]
+    }
+  ]
+}

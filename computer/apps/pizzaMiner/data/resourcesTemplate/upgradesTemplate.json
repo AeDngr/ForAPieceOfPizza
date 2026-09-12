@@ -1,0 +1,13 @@
+{
+  "upgradesTemplate": {
+    "id": "",
+    "name": "",
+    "description": "",
+    "tier": 0,
+    "price": {},
+    "condition": {},
+    "effect": {},
+    "scaling": {},
+    "tags": []
+  }
+}
